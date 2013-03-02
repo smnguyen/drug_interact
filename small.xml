@@ -1,0 +1,1717 @@
+<drugs>
+    <drug type="small molecule" created="2005-06-13 07:24:05 -0600" updated="2012-04-19 13:12:17 -0600" version="3.0">
+    <drugbank-id>DB00374</drugbank-id>
+    <name>Treprostinil</name>
+    <description>Treprostinil is a synthetic analogue of prostacyclin, used to treat pulmonary hypertension. Treprostinil is marketed as Remodulin&amp;reg;. [Wikipedia]</description>
+    <cas-number>81846-19-7</cas-number>
+    <general-references></general-references>
+    <synthesis-reference></synthesis-reference>
+    <indication>For use as a continuous subcutaneous infusion or intravenous infusion (for those not able to tolerate a subcutaneous infusion) for the treatment of pulmonary arterial hypertension in patients with NYHA Class II-IV symptoms to diminish symptoms associated with exercise.</indication>
+    <pharmacology>Pulmonary arterial hypertension (PAH) is a disease in which blood pressure is abnormally high in the arteries between the heart and lungs. PAH is characterized by symptoms of shortness of breath during physical exertion. The condition can ultimately lead to heart failure. Treprostinil is a potent oral antiplatelet agent. The major pharmacologic actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation. In animals, the vasodilatory effects reduce right and left ventricular afterload and increase cardiac output and stroke volume. Other studies have shown that treprostinil causes a dose-related negative inotropic and lusitropic effect. No major effects on cardiac conduction have been observed.</pharmacology>
+    <mechanism-of-action>The major pharmacological actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation. In addition to treprostinil's direct vasodilatory effects, it also inhibits inflammatory cytokine. As a synthetic analogue of prostacyclin, it binds to the prostacyclin receptor, which subsequently induces the aforementioned downstream effects.</mechanism-of-action>
+    <toxicity>Symptoms of overdose are extensions of its dose-limiting pharmacologic effects and include flushing, headache, hypotension, nausea, vomiting, and diarrhea. Most events were self-limiting and resolved with reduction or withholding of treprostinil.</toxicity>
+    <biotransformation>Substantially metabolized by the liver, but the precise enzymes responsible are unknown. Five metabolites have been described (HU1 through HU5) however, the biological activity and metabolic fate of these are unknown. The chemical structure of HU1 is unknown. The metabolite HU5 is the glucuronide conjugate of treprostinil. The other metabolites are formed by oxidation of the 3-hydroxyoctyl side chain (HU2) and subsequent additional oxidation (HU3) or dehydration (HU4). Study results of in vitro human hepatic cytochrome P450 demonstrates that treprostinil does not inhibit CYP-1A2, 2C9, 2C19, 2D6, 2E1, or 3A. Whether treprostinil induces these enzymes has not been studied.</biotransformation>
+    <absorption>Relatively rapid and complete after subcutaneous infusion, with an absolute bioavailability approximately 100%. In patients with mild (n=4) or moderate (n=5) hepatic insufficiency and portopulmonary hypertension following a subcutaneous dose of 10 ng per kg of body weight per min for 150 mins the AUC 0-&amp;infin; was increased 3-fold and 5-fold respectively.</absorption>
+    <half-life>Terminal elimination half-life is approximately 2 to 4 hours. Plasma half-life is 34 and 85 minutes for intravenous and subcutaneous infusion of the drug, respectively.</half-life>
+    <protein-binding>Human plasma protein binding is approximately 91% in in vitro concentrations ranging from 330 to 10,000 &amp;micro;/L.</protein-binding>
+    <route-of-elimination></route-of-elimination>
+    <volume-of-distribution>* 14 L/70 kg</volume-of-distribution>
+    <clearance></clearance>
+    <secondary-accession-numbers>
+      <secondary-accession-number>APRD01272</secondary-accession-number>
+    </secondary-accession-numbers>
+    <groups>
+      <group>approved</group>
+    </groups>
+    <taxonomy>
+      <kingdom></kingdom>
+      <substructures/>
+    </taxonomy>
+    <synonyms/>
+    <salts/>
+    <brands>
+      <brand>Remodulin</brand>
+      <brand>Viveta</brand>
+    </brands>
+    <mixtures/>
+    <packagers>
+      <packager>
+        <name>Baxter International Inc.</name>
+        <url>http://www.baxter.com</url>
+      </packager>
+      <packager>
+        <name>United Therapeutics Corp.</name>
+        <url>http://www.unither.com</url>
+      </packager>
+    </packagers>
+    <manufacturers>
+      <manufacturer generic="false">United therapeutics corp</manufacturer>
+    </manufacturers>
+    <prices>
+      <price>
+        <description>Remodulin 1 mg/ml vial</description>
+        <cost currency="USD">73.7</cost>
+        <unit>ml</unit>
+      </price>
+      <price>
+        <description>Tyvaso inhalation refill kit</description>
+        <cost currency="USD">165.68</cost>
+        <unit>ml</unit>
+      </price>
+      <price>
+        <description>Tyvaso 1.74 mg/2.9 ml solution</description>
+        <cost currency="USD">174.55</cost>
+        <unit>ml</unit>
+      </price>
+      <price>
+        <description>Remodulin 2.5 mg/ml vial</description>
+        <cost currency="USD">184.25</cost>
+        <unit>ml</unit>
+      </price>
+      <price>
+        <description>Tyvaso inhalation starter kit</description>
+        <cost currency="USD">185.8</cost>
+        <unit>ml</unit>
+      </price>
+      <price>
+        <description>Remodulin 5 mg/ml vial</description>
+        <cost currency="USD">368.5</cost>
+        <unit>ml</unit>
+      </price>
+      <price>
+        <description>Remodulin 10 mg/ml vial</description>
+        <cost currency="USD">737.0</cost>
+        <unit>ml</unit>
+      </price>
+    </prices>
+    <categories>
+      <category>Antithrombotic Agents</category>
+      <category>Antihypertensive Agents</category>
+      <category>Vitamin K antagonists</category>
+    </categories>
+    <affected-organisms>
+      <affected-organism>Humans and other mammals</affected-organism>
+    </affected-organisms>
+    <dosages>
+      <dosage>
+        <form>Solution</form>
+        <route>Intravenous</route>
+        <strength></strength>
+      </dosage>
+    </dosages>
+    <atc-codes>
+      <atc-code>B01AC21</atc-code>
+    </atc-codes>
+    <ahfs-codes>
+      <ahfs-code>24:12.92</ahfs-code>
+    </ahfs-codes>
+    <patents>
+      <patent>
+        <number>6521212</number>
+        <country>United States</country>
+        <approved>1998-11-13</approved>
+        <expires>2018-11-13</expires>
+      </patent>
+      <patent>
+        <number>5153222</number>
+        <country>United States</country>
+        <approved>1994-10-06</approved>
+        <expires>2014-10-06</expires>
+      </patent>
+    </patents>
+    <food-interactions/>
+    <drug-interactions>
+      <drug-interaction>
+        <drug>DB00054</drug>
+        <name>Abciximab</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Abciximab. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01193</drug>
+        <name>Acebutolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01418</drug>
+        <name>Acenocoumarol</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the anticoagulant, Acenocoumarol. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00819</drug>
+        <name>Acetazolamide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00945</drug>
+        <name>Acetylsalicylic acid</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Acetylsalicylic acid. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01258</drug>
+        <name>Aliskiren</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00594</drug>
+        <name>Amiloride</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00233</drug>
+        <name>Aminosalicylic Acid</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the salicylate, Aminosalicylic acid. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00381</drug>
+        <name>Amlodipine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01612</drug>
+        <name>Amyl Nitrite</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00261</drug>
+        <name>Anagrelide</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Anagrelide. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00964</drug>
+        <name>Apraclonidine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00278</drug>
+        <name>Argatroban</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the anticoagulant, Argatroban. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00335</drug>
+        <name>Atenolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00542</drug>
+        <name>Benazepril</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00436</drug>
+        <name>Bendroflumethiazide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00195</drug>
+        <name>Betaxolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00612</drug>
+        <name>Bisoprolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00006</drug>
+        <name>Bivalirudin</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the anticoagulant, Bivalirudin. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00484</drug>
+        <name>Brimonidine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00887</drug>
+        <name>Bumetanide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00796</drug>
+        <name>Candesartan</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01197</drug>
+        <name>Captopril</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00521</drug>
+        <name>Carteolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01136</drug>
+        <name>Carvedilol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00482</drug>
+        <name>Celecoxib</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Celecoxib. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB04846</drug>
+        <name>Celiprolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00880</drug>
+        <name>Chlorothiazide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00310</drug>
+        <name>Chlorthalidone</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01340</drug>
+        <name>Cilazapril</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01166</drug>
+        <name>Cilostazol</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Cilostazol. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00215</drug>
+        <name>Citalopram</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Citalopram. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB04920</drug>
+        <name>Clevidipine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00575</drug>
+        <name>Clonidine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00758</drug>
+        <name>Clopidogrel</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Clopidogrel. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB04838</drug>
+        <name>Cyclandelate</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00633</drug>
+        <name>Dexmedetomidine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01144</drug>
+        <name>Dichlorphenamide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00586</drug>
+        <name>Diclofenac</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Diclofenac. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00861</drug>
+        <name>Diflunisal</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Diflunisal. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00343</drug>
+        <name>Diltiazem</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00975</drug>
+        <name>Dipyridamole</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Dipyridamole. Monitor for increased bleeding during concomitant thearpy. Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00590</drug>
+        <name>Doxazosin</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01395</drug>
+        <name>Drospirenone</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00055</drug>
+        <name>Drotrecogin alfa</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the anticoagulant, Drotrecogin alfa. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00584</drug>
+        <name>Enalapril</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01225</drug>
+        <name>Enoxaparin</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the anticoagulant, Exoxaparin. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00700</drug>
+        <name>Eplerenone</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00876</drug>
+        <name>Eprosartan</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00063</drug>
+        <name>Eptifibatide</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Eptifibatide. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01175</drug>
+        <name>Escitalopram</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Escitalopram. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00187</drug>
+        <name>Esmolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00903</drug>
+        <name>Ethacrynic acid</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00749</drug>
+        <name>Etodolac</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Etodolac. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01023</drug>
+        <name>Felodipine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00573</drug>
+        <name>Fenoprofen</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Fenoprofen. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00472</drug>
+        <name>Fluoxetine</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Fluoxetine. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00712</drug>
+        <name>Flurbiprofen</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Flurbiprofen. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00176</drug>
+        <name>Fluvoxamine</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Fluvoxamine. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00492</drug>
+        <name>Fosinopril</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00695</drug>
+        <name>Furosemide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00629</drug>
+        <name>Guanabenz</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01018</drug>
+        <name>Guanfacine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01109</drug>
+        <name>Heparin</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the anticoagulant, Heparin. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01275</drug>
+        <name>Hydralazine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00999</drug>
+        <name>Hydrochlorothiazide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00774</drug>
+        <name>Hydroflumethiazide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01050</drug>
+        <name>Ibuprofen</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Ibuprofen. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00808</drug>
+        <name>Indapamide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00328</drug>
+        <name>Indomethacin</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Indomethacin. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01029</drug>
+        <name>Irbesartan</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00883</drug>
+        <name>Isosorbide Dinitrate</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01020</drug>
+        <name>Isosorbide Mononitrate</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00270</drug>
+        <name>Isradipine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01009</drug>
+        <name>Ketoprofen</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Ketoprofen. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00465</drug>
+        <name>Ketorolac</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Ketorolac. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00598</drug>
+        <name>Labetalol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00001</drug>
+        <name>Lepirudin</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the anticoagulant, Lepirudin. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01210</drug>
+        <name>Levobunolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00722</drug>
+        <name>Lisinopril</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00678</drug>
+        <name>Losartan</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01283</drug>
+        <name>Lumiracoxib</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Lumiracoxib. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00742</drug>
+        <name>Mannitol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00939</drug>
+        <name>Meclofenamic acid</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Meclofenamate. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00784</drug>
+        <name>Mefenamic acid</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Mefenamic acid. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00814</drug>
+        <name>Meloxicam</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Meloxicam. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00703</drug>
+        <name>Methazolamide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00232</drug>
+        <name>Methyclothiazide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01214</drug>
+        <name>Metipranolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00524</drug>
+        <name>Metolazone</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00264</drug>
+        <name>Metoprolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00350</drug>
+        <name>Minoxidil</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00691</drug>
+        <name>Moexipril</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00461</drug>
+        <name>Nabumetone</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Nabumetone. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01203</drug>
+        <name>Nadolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00788</drug>
+        <name>Naproxen</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Naproxen. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB04861</drug>
+        <name>Nebivolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB04899</drug>
+        <name>Nesiritide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00622</drug>
+        <name>Nicardipine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01115</drug>
+        <name>Nifedipine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00393</drug>
+        <name>Nimodipine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00401</drug>
+        <name>Nisoldipine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01054</drug>
+        <name>Nitrendipine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00727</drug>
+        <name>Nitroglycerin</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00325</drug>
+        <name>Nitroprusside</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00275</drug>
+        <name>Olmesartan</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00991</drug>
+        <name>Oxaprozin</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Oxaprozin. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01580</drug>
+        <name>Oxprenolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01113</drug>
+        <name>Papaverine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00715</drug>
+        <name>Paroxetine</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Paroxetine. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01359</drug>
+        <name>Penbutolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00790</drug>
+        <name>Perindopril</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00925</drug>
+        <name>Phenoxybenzamine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00692</drug>
+        <name>Phentolamine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00960</drug>
+        <name>Pindolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00554</drug>
+        <name>Piroxicam</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Piroxicam. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01324</drug>
+        <name>Polythiazide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00457</drug>
+        <name>Prazosin</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00881</drug>
+        <name>Quinapril</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00178</drug>
+        <name>Ramipril</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00206</drug>
+        <name>Reserpine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB06228</drug>
+        <name>Rivaroxaban</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the anticoagulant, Rivaroxaban. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01399</drug>
+        <name>Salsalate</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the salicylate, Salsalate. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01104</drug>
+        <name>Sertraline</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Sertraline. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00489</drug>
+        <name>Sotalol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00421</drug>
+        <name>Spironolactone</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00605</drug>
+        <name>Sulindac</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Sulindac. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00966</drug>
+        <name>Telmisartan</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01162</drug>
+        <name>Terazosin</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01600</drug>
+        <name>Tiaprofenic acid</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Tiaprofenic acid. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00208</drug>
+        <name>Ticlopidine</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Ticlopidine. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00373</drug>
+        <name>Timolol</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00775</drug>
+        <name>Tirofiban</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the antiplatelet agent, Tirofiban. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00697</drug>
+        <name>Tizanidine</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00797</drug>
+        <name>Tolazoline</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00500</drug>
+        <name>Tolmetin</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the risk of bleeding when combined with the NSAID, Tolmetin. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00214</drug>
+        <name>Torasemide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00519</drug>
+        <name>Trandolapril</name>
+        <description>The prostacyclin analogue, Treprostinil, may increase the hypotensive effect of Trandolapril.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00384</drug>
+        <name>Triamterene</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01021</drug>
+        <name>Trichlormethiazide</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB03904</drug>
+        <name>Urea</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00177</drug>
+        <name>Valsartan</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00661</drug>
+        <name>Verapamil</name>
+        <description>Additive hypotensive effect. Monitor antihypertensive therapy during concomitant use. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00682</drug>
+        <name>Warfarin</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the anticoagulant, Warfarin. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+    </drug-interactions>
+    <calculated-properties>
+      <property>
+        <kind>logP</kind>
+        <value>3.53</value>
+        <source>ALOGPS</source>
+      </property>
+      <property>
+        <kind>logS</kind>
+        <value>-4.7</value>
+        <source>ALOGPS</source>
+      </property>
+      <property>
+        <kind>Water Solubility</kind>
+        <value>7.31e-03 g/l</value>
+        <source>ALOGPS</source>
+      </property>
+      <property>
+        <kind>logP</kind>
+        <value>4</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>pKa</kind>
+        <value>14.93</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>IUPAC Name</kind>
+        <value>2-{[(1R,2R,3aS,9aS)-2-hydroxy-1-[(3S)-3-hydroxyoctyl]-1H,2H,3H,3aH,4H,9H,9aH-cyclopenta[b]naphthalen-5-yl]oxy}acetic acid</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>Molecular Weight</kind>
+        <value>390.5131</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>Monoisotopic Weight</kind>
+        <value>390.240624198</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>SMILES</kind>
+        <value>[H][C@]12C[C@@H](O)[C@H](CC[C@@H](O)CCCCC)[C@@]1([H])CC1=C(C2)C(OCC(O)=O)=CC=C1</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>Molecular Formula</kind>
+        <value>C23H34O5</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>InChI</kind>
+        <value>InChI=1S/C23H34O5/c1-2-3-4-7-17(24)9-10-18-19-11-15-6-5-8-22(28-14-23(26)27)20(15)12-16(19)13-21(18)25/h5-6,8,16-19,21,24-25H,2-4,7,9-14H2,1H3,(H,26,27)/t16-,17-,18+,19-,21+/m0/s1</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>InChIKey</kind>
+        <value>InChIKey=PAJMKGZZBBTTOY-ZFORQUDYSA-N</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>Polar Surface Area (PSA)</kind>
+        <value>86.99</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>Refractivity</kind>
+        <value>108</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>Polarizability</kind>
+        <value>45.74</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>Rotatable Bond Count</kind>
+        <value>10</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>H Bond Acceptor Count</kind>
+        <value>5</value>
+        <source>JChem</source>
+      </property>
+      <property>
+        <kind>H Bond Donor Count</kind>
+        <value>3</value>
+        <source>JChem</source>
+      </property>
+    </calculated-properties>
+    <experimental-properties>
+      <property>
+        <kind>logP/hydrophobicity</kind>
+        <value>4.1</value>
+        <source></source>
+      </property>
+      <property>
+        <kind>Water Solubility</kind>
+        <value>Insoluble at 25&#xB0;C</value>
+        <source></source>
+      </property>
+    </experimental-properties>
+    <external-identifiers>
+      <external-identifier>
+        <resource>ChEBI</resource>
+        <identifier>50861</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>Drugs Product Database (DPD)</resource>
+        <identifier>2246552</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>National Drug Code Directory</resource>
+        <identifier>66302-206-01</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>PharmGKB</resource>
+        <identifier>PA10217</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <external-links>
+      <external-link>
+        <resource>Wikipedia</resource>
+        <url>http://en.wikipedia.org/wiki/Treprostinil</url>
+      </external-link>
+      <external-link>
+        <resource>RxList</resource>
+        <url>http://www.rxlist.com/cgi/generic/remodulin.htm</url>
+      </external-link>
+      <external-link>
+        <resource>Drugs.com</resource>
+        <url>http://www.drugs.com/cdi/treprostinil-inhalation-solution.html</url>
+      </external-link>
+    </external-links>
+    <targets>
+      <target position="1" partner="527">
+        <actions>
+          <action>agonist</action>
+        </actions>
+        <references># Falcetti E, Hall SM, Phillips PG, Patel J, Morrell NW, Haworth SG, Clapp LH: Smooth Muscle Proliferation and Role of the Prostacyclin (IP) Receptor in Idiopathic Pulmonary Arterial Hypertension. Am J Respir Crit Care Med. 2010 Jul 9. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/20622039
+# Sprague RS, Bowles EA, Hanson MS, DuFaux EA, Sridharan M, Adderley S, Ellsworth ML, Stephenson AH: Prostacyclin analogs stimulate receptor-mediated cAMP synthesis and ATP release from rabbit and human erythrocytes. Microcirculation. 2008 Jul;15(5):461-71. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/18574748
+# Olschewski H, Rose F, Schermuly R, Ghofrani HA, Enke B, Olschewski A, Seeger W: Prostacyclin and its analogues in the treatment of pulmonary hypertension. Pharmacol Ther. 2004 May;102(2):139-53. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/15163595
+# Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/11752352</references>
+        <known-action>yes</known-action>
+      </target>
+      <target position="2" partner="1502">
+        <actions>
+          <action>agonist</action>
+        </actions>
+        <references># Ali FY, Egan K, FitzGerald GA, Desvergne B, Wahli W, Bishop-Bailey D, Warner TD, Mitchell JA: Role of prostacyclin versus peroxisome proliferator-activated receptor beta receptors in prostacyclin sensing by lung fibroblasts. Am J Respir Cell Mol Biol. 2006 Feb;34(2):242-6. Epub 2005 Oct 20. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/16239641</references>
+        <known-action>yes</known-action>
+      </target>
+      <target position="3" partner="122">
+        <actions>
+          <action>agonist</action>
+        </actions>
+        <references># Overington JP, Al-Lazikani B, Hopkins AL: How many drug targets are there? Nat Rev Drug Discov. 2006 Dec;5(12):993-6. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/17139284
+# Imming P, Sinning C, Meyer A: Drugs, their targets and the nature and number of drug targets. Nat Rev Drug Discov. 2006 Oct;5(10):821-34. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/17016423</references>
+        <known-action>yes</known-action>
+      </target>
+    </targets>
+    <enzymes/>
+    <transporters/>
+    <carriers/>
+  </drug>
+  <drug type="biotech" created="2005-06-13 07:24:05 -0600" updated="2012-02-13 17:42:20 -0700" version="3.0">
+    <drugbank-id>DB00001</drugbank-id>
+    <name>Lepirudin</name>
+    <description>Lepirudin is identical to natural hirudin except for substitution of leucine for isoleucine at the N-terminal end of the molecule and the absence of a sulfate group on the tyrosine at position 63. It is produced via yeast cells.&#xD;
+</description>
+    <cas-number>120993-53-5</cas-number>
+    <general-references># Smythe MA, Stephens JL, Koerber JM, Mattson JC: A comparison of lepirudin and argatroban outcomes. Clin Appl Thromb Hemost. 2005 Oct;11(4):371-4. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/16244762&#xD;
+# Tardy B, Lecompte T, Boelhen F, Tardy-Poncet B, Elalamy I, Morange P, Gruel Y, Wolf M, Francois D, Racadot E, Camarasa P, Blouch MT, Nguyen F, Doubine S, Dutrillaux F, Alhenc-Gelas M, Martin-Toutain I, Bauters A, Ffrench P, de Maistre E, Grunebaum L, Mouton C, Huisse MG, Gouault-Heilmann M, Lucke V: Predictive factors for thrombosis and major bleeding in an observational study in 181 patients with heparin-induced thrombocytopenia treated with lepirudin. Blood. 2006 Sep 1;108(5):1492-6. Epub 2006 May 11. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/16690967&#xD;
+# Lubenow N, Eichler P, Lietz T, Greinacher A: Lepirudin in patients with heparin-induced thrombocytopenia - results of the third prospective study (HAT-3) and a combined analysis of HAT-1, HAT-2, and HAT-3. J Thromb Haemost. 2005 Nov;3(11):2428-36. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/16241940&#xD;
+# Askari AT, Lincoff AM: Antithrombotic Drug Therapy in Cardiovascular Disease. 2009 Oct; pp. 440&#x2013;. ISBN 9781603272346. "Google books":http://books.google.com/books?id=iadLoXoQkWEC&amp;pg=PA440. </general-references>
+    <synthesis-reference></synthesis-reference>
+    <indication>For the treatment of heparin-induced thrombocytopenia</indication>
+    <pharmacology>Lepirudin is used to break up clots and to reduce thrombocytopenia. It binds to thrombin and prevents thrombus or clot formation. It is a highly potent, selective, and essentially irreversible inhibitor of thrombin and clot-bond thrombin. Lepirudin requires no cofactor for its anticoagulant action. Lepirudin is a recombinant form of hirudin, an endogenous anticoagulant found in medicinal leeches.</pharmacology>
+    <mechanism-of-action>Lepirudin forms a stable non-covalent complex with alpha-thrombin, thereby abolishing its ability to cleave fibrinogen and initiate the clotting cascade. The inhibition of thrombin prevents the blood clotting cascade. </mechanism-of-action>
+    <toxicity>In case of overdose (eg, suggested by excessively high aPTT values) the risk of bleeding is increased.</toxicity>
+    <biotransformation>Lepirudin is thought to be metabolized by release of amino acids via catabolic hydrolysis of the parent drug. However, con-clusive data are not available. About 48% of the administration dose is excreted in the urine which consists of unchanged drug (35%) and other fragments of the parent drug.</biotransformation>
+    <absorption>Bioavailability is 100% following injection.</absorption>
+    <half-life>Approximately 1.3 hours</half-life>
+    <protein-binding></protein-binding>
+    <route-of-elimination>Lepirudin is thought to be metabolized by release of amino acids via catabolic hydrolysis of the parent drug. About 48% of the administration dose is excreted in the urine which consists of unchanged drug (35%) and other fragments of the parent drug.</route-of-elimination>
+    <volume-of-distribution>* 12.2 L [Healthy young subjects (n = 18, age 18-60 years)]&#xD;
+* 18.7 L [Healthy elderly subjects (n = 10, age 65-80 years)]&#xD;
+* 18 L [Renally impaired patients (n = 16, creatinine clearance below 80 mL/min)]&#xD;
+* 32.1 L [HIT patients (n = 73)]</volume-of-distribution>
+    <clearance>* 164 ml/min [Healthy 18-60 yrs]&#xD;
+* 139 ml/min [Healthy 65-80 yrs]&#xD;
+* 61 ml/min [renal impaired]&#xD;
+* 114 ml/min [HIT (Heparin-induced thrombocytopenia)]</clearance>
+    <secondary-accession-numbers>
+      <secondary-accession-number>BIOD00024</secondary-accession-number>
+      <secondary-accession-number>BTD00024</secondary-accession-number>
+    </secondary-accession-numbers>
+    <groups>
+      <group>approved</group>
+    </groups>
+    <taxonomy>
+      <kingdom></kingdom>
+      <substructures/>
+    </taxonomy>
+    <synonyms>
+      <synonym>Hirudin variant-1</synonym>
+    </synonyms>
+    <salts/>
+    <brands>
+      <brand>Refludan</brand>
+    </brands>
+    <mixtures/>
+    <packagers>
+      <packager>
+        <name>Bayer Healthcare</name>
+        <url>http://www.bayerhealthcare.com</url>
+      </packager>
+      <packager>
+        <name>Berlex Labs</name>
+        <url>http://www.berlex.com</url>
+      </packager>
+    </packagers>
+    <manufacturers>
+      <manufacturer generic="false">Bayer healthcare pharmaceuticals inc</manufacturer>
+    </manufacturers>
+    <prices>
+      <price>
+        <description>Refludan 50 mg vial</description>
+        <cost currency="USD">273.19</cost>
+        <unit>vial</unit>
+      </price>
+    </prices>
+    <categories>
+      <category>Anticoagulants</category>
+      <category>Antithrombotic Agents</category>
+      <category>Fibrinolytic Agents</category>
+    </categories>
+    <affected-organisms>
+      <affected-organism>Humans and other mammals</affected-organism>
+    </affected-organisms>
+    <dosages>
+      <dosage>
+        <form>Powder, for solution</form>
+        <route>Intravenous</route>
+        <strength></strength>
+      </dosage>
+    </dosages>
+    <atc-codes>
+      <atc-code>B01AE02</atc-code>
+    </atc-codes>
+    <ahfs-codes>
+      <ahfs-code>20:12.04.12</ahfs-code>
+    </ahfs-codes>
+    <patents>
+      <patent>
+        <number>5180668</number>
+        <country>United States</country>
+        <approved>1993-01-19</approved>
+        <expires>2010-01-19</expires>
+      </patent>
+      <patent>
+        <number>1339104</number>
+        <country>Canada</country>
+        <approved>1997-07-29</approved>
+        <expires>2014-07-29</expires>
+      </patent>
+    </patents>
+    <food-interactions/>
+    <drug-interactions>
+      <drug-interaction>
+        <drug>DB01381</drug>
+        <name>Ginkgo biloba</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00374</drug>
+        <name>Treprostinil</name>
+        <description>The prostacyclin analogue, Treprostinil, increases the risk of bleeding when combined with the anticoagulant, Lepirudin. Monitor for increased bleeding during concomitant thearpy. </description>
+      </drug-interaction>
+    </drug-interactions>
+    <protein-sequences>
+      <protein-sequence>
+        <header>DB00001 sequence</header>
+        <chain>LVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPKPQSHNDGDFEEIPEEYLQ</chain>
+      </protein-sequence>
+    </protein-sequences>
+    <experimental-properties>
+      <property>
+        <kind>logP/hydrophobicity</kind>
+        <value>-0.777</value>
+        <source></source>
+      </property>
+      <property>
+        <kind>Molecular Weight</kind>
+        <value>6963.4250</value>
+        <source></source>
+      </property>
+      <property>
+        <kind>Molecular Formula</kind>
+        <value>C287H440N80O110S6</value>
+        <source></source>
+      </property>
+    </experimental-properties>
+    <external-identifiers>
+      <external-identifier>
+        <resource>Drugs Product Database (DPD)</resource>
+        <identifier>2240996</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>National Drug Code Directory</resource>
+        <identifier>50419-150-57</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>PharmGKB</resource>
+        <identifier>PA450195</identifier>
+      </external-identifier>
+      <external-identifier>
+        <resource>UniProtKB</resource>
+        <identifier>P01050</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <external-links>
+      <external-link>
+        <resource>Wikipedia</resource>
+        <url>http://en.wikipedia.org/wiki/Lepirudin</url>
+      </external-link>
+      <external-link>
+        <resource>RxList</resource>
+        <url>http://www.rxlist.com/cgi/generic/lepirudin.htm</url>
+      </external-link>
+      <external-link>
+        <resource>Drugs.com</resource>
+        <url>http://www.drugs.com/cdi/lepirudin.html</url>
+      </external-link>
+    </external-links>
+    <targets>
+      <target partner="54">
+        <actions>
+          <action>inhibitor</action>
+        </actions>
+        <references># Turpie AG: Anticoagulants in acute coronary syndromes. Am J Cardiol. 1999 Sep 2;84(5A):2M-6M. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/10505536&#xD;
+# Warkentin TE: Venous thromboembolism in heparin-induced thrombocytopenia. Curr Opin Pulm Med. 2000 Jul;6(4):343-51. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/10912644&#xD;
+# Eriksson BI: New therapeutic options in deep vein thrombosis prophylaxis. Semin Hematol. 2000 Jul;37(3 Suppl 5):7-9. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/11055889&#xD;
+# Fabrizio MC: Use of ecarin clotting time (ECT) with lepirudin therapy in heparin-induced thrombocytopenia and cardiopulmonary bypass. J Extra Corpor Technol. 2001 May;33(2):117-25. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/11467439&#xD;
+# Szaba FM, Smiley ST: Roles for thrombin and fibrin(ogen) in cytokine/chemokine production and macrophage adhesion in vivo. Blood. 2002 Feb 1;99(3):1053-9. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/11807012&#xD;
+# Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/11752352</references>
+        <known-action>yes</known-action>
+      </target>
+    </targets>
+    <enzymes/>
+    <transporters/>
+    <carriers/>
+  </drug>
+  <drug type="small molecule" created="2007-07-06 14:33:31 -0600" updated="2012-02-14 11:47:08 -0700" version="3.0">
+    <drugbank-id>DB01381</drugbank-id>
+    <name>Ginkgo biloba</name>
+    <description>The extract of the Ginkgo leaves contains flavonoid glycosides and terpenoids (ginkgolides, bilobalides) and has been used pharmaceutically for hundreds of years. It has many alleged nootropic properties, and is mainly used as memory and concentration enhancer, and anti-vertigo agent. Ginkgo extract seems to have three effects on the human body: it improves blood flow (including microcirculation in small capillaries) to most tissues and organs; it protects against oxidative cell damage from free radicals; and it blocks many of the effects of PAF (platelet aggregation, blood clotting) that have been related to the development of a number of cardiovascular, renal, respiratory and CNS (Central Nervous System) disorders.</description>
+    <cas-number></cas-number>
+    <general-references># Cohen AJ, Bartlik B: Ginkgo biloba for antidepressant-induced sexual dysfunction. J Sex Marital Ther. 1998 Apr-Jun;24(2):139-43. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/9611693</general-references>
+    <synthesis-reference></synthesis-reference>
+    <indication>Appears to be effective in: alleviating age-related memory impairment in some elderly people with mild to moderate age-related memory or cognitive impairment; improving cognitive function in healthy young to middle-aged people; improving symptoms of Alzheimer's, vascular or mixed dementia; improving damage to the visual field in patients with normal tension glaucoma; decreasing the number of painful attacks in patients with Raynaud's syndrome; and may improve symptoms of vertigo and dizziness in some patients. </indication>
+    <pharmacology>The mechanism by which ginkgo biloba is thought to be effective for these conditions appears to be in part through active "ginkgolides" terpenoids and flavinoids that appear to inhibit platelet aggregation, neutrophil degranulation, and the induction of oxygen-free radical production</pharmacology>
+    <mechanism-of-action>The compounds found in ginkgo may have a protective&#xD;
+role in different stages of the decline of intellectual function via several mechanisms of action: vasoregulating activity of arteries, capillaries, and veins (increased blood flow); platelet activating factor (PAF) antagonism; homeostasis of inflammation and oxidative stress; and prevention of cell membrane damage causedby free radicals; and neurotransmission modulation.&#xD;
+The most important substances are flavonoids (ginkgo flavone glycosides) and terpenoids (ginkgolides and&#xD;
+bilobalide).The compounds inginkgo act to varying degrees as scavengers for free radicals.</mechanism-of-action>
+    <toxicity>Fresh seeds are toxic may cause death. Roasted seed and crude ginkgo plant should not be used orally. Consumption of greater than 10 roasted seeds may cause difficulty breathing, weak pulse, seizures, loss of consciousness, and shock. Standardized ginkgo leaf extracts have been used safely in trials lasting several weeks to six years; however, cases of spontaneous hemorrhages have been reported with the conventional use of the standardized extract. As with all medications, individual risk factors must be considered in the assessment of safety of this medication. &#xD;
+This medication is well-tolerated at standard oral doses. Ginkgo biloba may cause gastrointestinal upset, headache, dizziness, palpitations, nausea, vomiting, lack of muscle tone and weakness.&#xD;
+ </toxicity>
+    <biotransformation></biotransformation>
+    <absorption></absorption>
+    <half-life></half-life>
+    <protein-binding></protein-binding>
+    <route-of-elimination></route-of-elimination>
+    <volume-of-distribution></volume-of-distribution>
+    <clearance></clearance>
+    <secondary-accession-numbers/>
+    <groups>
+      <group>approved</group>
+      <group>nutraceutical</group>
+    </groups>
+    <taxonomy>
+      <kingdom></kingdom>
+      <substructures/>
+    </taxonomy>
+    <synonyms>
+      <synonym>Adiantifolia </synonym>
+      <synonym>Bai Guo Ye</synonym>
+      <synonym>Baiguo</synonym>
+      <synonym>Fossil Tree</synonym>
+      <synonym>Ginkgo Folium</synonym>
+      <synonym>Herba Ginkgo Biloba</synonym>
+      <synonym>Japanese Silver Apricot</synonym>
+      <synonym>Kew Tree</synonym>
+      <synonym>Maidenhair Tree</synonym>
+      <synonym>Pei Go Su Ye</synonym>
+      <synonym>Salisburia Adiantifolia</synonym>
+      <synonym>Yen Xing</synonym>
+      <synonym>Yinhsing</synonym>
+    </synonyms>
+    <salts/>
+    <brands/>
+    <mixtures/>
+    <packagers>
+      <packager>
+        <name>Chain Drug</name>
+        <url>http://www.chaindrug.com</url>
+      </packager>
+      <packager>
+        <name>General Nutrition Inc.</name>
+        <url>http://www.gnc.com</url>
+      </packager>
+      <packager>
+        <name>Major Pharmaceuticals</name>
+        <url>http://www.majorpharmaceuticals.com</url>
+      </packager>
+      <packager>
+        <name>Mckesson Corp.</name>
+        <url>http://www.mckesson.com</url>
+      </packager>
+      <packager>
+        <name>Mericon</name>
+        <url>http://www.mericon.com</url>
+      </packager>
+      <packager>
+        <name>Pharmavite</name>
+        <url>http://www.pharmavite.com</url>
+      </packager>
+      <packager>
+        <name>Rite Aid Corp.</name>
+        <url>http://www.riteaid.com</url>
+      </packager>
+      <packager>
+        <name>Sunmark</name>
+        <url>http://www.sunmarkbrand.com</url>
+      </packager>
+    </packagers>
+    <manufacturers/>
+    <prices>
+      <price>
+        <description>Pv ginkgo biloba capsule</description>
+        <cost currency="USD">0.03</cost>
+        <unit>capsule</unit>
+      </price>
+      <price>
+        <description>Ginkgo biloba 30 mg capsule</description>
+        <cost currency="USD">0.04</cost>
+        <unit>capsule</unit>
+      </price>
+      <price>
+        <description>Ginkgo biloba 50 mg tablet</description>
+        <cost currency="USD">0.09</cost>
+        <unit>tablet</unit>
+      </price>
+      <price>
+        <description>Ginkgo biloba 60 mg capsule</description>
+        <cost currency="USD">0.1</cost>
+        <unit>capsule</unit>
+      </price>
+      <price>
+        <description>Ra ginkgo biloba 40 mg tablet</description>
+        <cost currency="USD">0.11</cost>
+        <unit>tablet</unit>
+      </price>
+      <price>
+        <description>Ginkgo 60 mg tablet</description>
+        <cost currency="USD">0.14</cost>
+        <unit>tablet</unit>
+      </price>
+      <price>
+        <description>Ginkgo biloba 120 mg caplet</description>
+        <cost currency="USD">0.19</cost>
+        <unit>caplet</unit>
+      </price>
+      <price>
+        <description>Sm ginkgo biloba 60 mg caplet</description>
+        <cost currency="USD">0.19</cost>
+        <unit>caplet</unit>
+      </price>
+      <price>
+        <description>Ginkgo biloba 40 mg tablet</description>
+        <cost currency="USD">0.24</cost>
+        <unit>tablet</unit>
+      </price>
+    </prices>
+    <categories/>
+    <affected-organisms/>
+    <dosages>
+      <dosage>
+        <form>Capsule</form>
+        <route>Oral</route>
+        <strength>120 mg</strength>
+      </dosage>
+      <dosage>
+        <form>Capsule</form>
+        <route>Oral</route>
+        <strength>30 mg</strength>
+      </dosage>
+      <dosage>
+        <form>Capsule</form>
+        <route>Oral</route>
+        <strength>40 mg</strength>
+      </dosage>
+      <dosage>
+        <form>Capsule</form>
+        <route>Oral</route>
+        <strength>60 mg</strength>
+      </dosage>
+      <dosage>
+        <form>Liquid</form>
+        <route>Oral</route>
+        <strength></strength>
+      </dosage>
+      <dosage>
+        <form>Solution / drops</form>
+        <route>Oral</route>
+        <strength></strength>
+      </dosage>
+    </dosages>
+    <atc-codes>
+      <atc-code>N06DX02</atc-code>
+    </atc-codes>
+    <ahfs-codes>
+      <ahfs-code>92:02.00*</ahfs-code>
+    </ahfs-codes>
+    <patents/>
+    <food-interactions/>
+    <drug-interactions>
+      <drug-interaction>
+        <drug>DB00054</drug>
+        <name>Abciximab</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01418</drug>
+        <name>Acenocoumarol</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00945</drug>
+        <name>Acetylsalicylic acid</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00009</drug>
+        <name>Alteplase</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00261</drug>
+        <name>Anagrelide</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00278</drug>
+        <name>Argatroban</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00006</drug>
+        <name>Bivalirudin</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01166</drug>
+        <name>Cilostazol</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00215</drug>
+        <name>Citalopram</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00758</drug>
+        <name>Clopidogrel</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB06695</drug>
+        <name>Dabigatran etexilate</name>
+        <description>Additive anticoagulant/antiplatelet effects of gingko may increase bleed risk for patients on dabigatran. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00586</drug>
+        <name>Diclofenac</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00861</drug>
+        <name>Diflunisal</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00975</drug>
+        <name>Dipyridamole</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01225</drug>
+        <name>Enoxaparin</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00063</drug>
+        <name>Eptifibatide</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01175</drug>
+        <name>Escitalopram</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00749</drug>
+        <name>Etodolac</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00573</drug>
+        <name>Fenoprofen</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00472</drug>
+        <name>Fluoxetine</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00712</drug>
+        <name>Flurbiprofen</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00176</drug>
+        <name>Fluvoxamine</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00569</drug>
+        <name>Fondaparinux sodium</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01404</drug>
+        <name>Ginseng</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01109</drug>
+        <name>Heparin</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01050</drug>
+        <name>Ibuprofen</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00328</drug>
+        <name>Indomethacin</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01009</drug>
+        <name>Ketoprofen</name>
+        <description>Increased risk of bleeding due to additive antiplatelet properties of the two agents. Concomitant therapy should be avoided or monitored carefully for bleeding, bruising and altered mental status, which may be caused by CNS bleeds.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00465</drug>
+        <name>Ketorolac</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00001</drug>
+        <name>Lepirudin</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00939</drug>
+        <name>Meclofenamic acid</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00814</drug>
+        <name>Meloxicam</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00461</drug>
+        <name>Nabumetone</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00788</drug>
+        <name>Naproxen</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00991</drug>
+        <name>Oxaprozin</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00715</drug>
+        <name>Paroxetine</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00554</drug>
+        <name>Piroxicam</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB06209</drug>
+        <name>Prasugrel</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00015</drug>
+        <name>Reteplase</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB06228</drug>
+        <name>Rivaroxaban</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00118</drug>
+        <name>S-Adenosylmethionine</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01104</drug>
+        <name>Sertraline</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00605</drug>
+        <name>Sulindac</name>
+        <description>Ginkgo biloba may enhance the anticoagulant effect of sulindac. Increased risk of bleeding, bruising and altered mental status due to CNS bleeds. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00382</drug>
+        <name>Tacrine</name>
+        <description>Ginkgo biloba may cause additive/toxic cholinergic effects when administered with Tacrine. Monitor for cholinergic toxicity. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00031</drug>
+        <name>Tenecteplase</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB01600</drug>
+        <name>Tiaprofenic acid</name>
+        <description>Increased risk of bleeding due to additive antiplatelet properties of the two agents. Concomitant therapy should be avoided or monitored carefully for bleeding, bruising and altered mental status, which may be caused by CNS bleeds.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00208</drug>
+        <name>Ticlopidine</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00775</drug>
+        <name>Tirofiban</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00500</drug>
+        <name>Tolmetin</name>
+        <description>Increased risk of bleeding due to additive antiplatelet properties of the two agents. Concomitant therapy should be avoided or monitored carefully for bleeding, bruising and altered mental status, which may be caused by CNS bleeds.</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00656</drug>
+        <name>Trazodone</name>
+        <description>Increased effect and toxicity of both agents</description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00013</drug>
+        <name>Urokinase</name>
+        <description>Increased risk of bleeding. </description>
+      </drug-interaction>
+      <drug-interaction>
+        <drug>DB00682</drug>
+        <name>Warfarin</name>
+        <description>Additive anticoagulant/antiplatelet effects may increase bleed risk. Concomitant therapy should be avoided.</description>
+      </drug-interaction>
+    </drug-interactions>
+    <calculated-properties/>
+    <experimental-properties/>
+    <external-identifiers>
+      <external-identifier>
+        <resource>Drugs Product Database (DPD)</resource>
+        <identifier>889660</identifier>
+      </external-identifier>
+    </external-identifiers>
+    <external-links>
+      <external-link>
+        <resource>Wikipedia</resource>
+        <url>http://en.wikipedia.org/wiki/Ginkgo_biloba</url>
+      </external-link>
+      <external-link>
+        <resource>RxList</resource>
+        <url>http://www.rxlist.com/cgi/generic/ginkgo.htm</url>
+      </external-link>
+      <external-link>
+        <resource>Drugs.com</resource>
+        <url>http://www.drugs.com/mtm/ginkgo.html</url>
+      </external-link>
+    </external-links>
+    <targets>
+      <target position="1" partner="540">
+        <actions>
+          <action>inhibitor</action>
+        </actions>
+        <references># Fehske CJ, Leuner K, Muller WE: Ginkgo biloba extract (EGb761) influences monoaminergic neurotransmission via inhibition of NE uptake, but not MAO activity after chronic treatment. Pharmacol Res. 2009 Jul;60(1):68-73. Epub 2009 Mar 21. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/19427589</references>
+        <known-action>unknown</known-action>
+      </target>
+      <target position="2" partner="2981">
+        <actions>
+          <action>inhibitor</action>
+        </actions>
+        <references># Kim HK, Son KH, Chang HW, Kang SS, Kim HP: Inhibition of rat adjuvant-induced arthritis by ginkgetin, a biflavone from ginkgo biloba leaves. Planta Med. 1999 Jun;65(5):465-7. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/10418340
+# Weichel O, Hilgert M, Chatterjee SS, Lehr M, Klein J: Bilobalide, a constituent of Ginkgo biloba, inhibits NMDA-induced phospholipase A2 activation and phospholipid breakdown in rat hippocampus. Naunyn Schmiedebergs Arch Pharmacol. 1999 Dec;360(6):609-15. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/10619176
+# Lim H, Son KH, Chang HW, Kang SS, Kim HP: Effects of anti-inflammatory biflavonoid, ginkgetin, on chronic skin inflammation. Biol Pharm Bull. 2006 May;29(5):1046-9. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/16651744</references>
+        <known-action>unknown</known-action>
+      </target>
+      <target position="2" partner="482">
+        <actions>
+          <action>antagonist</action>
+        </actions>
+        <references># Heads JA, Hawthorne RL, Lynagh T, Lynch JW: Structure-activity analysis of ginkgolide binding in the glycine receptor pore. J Neurochem. 2008 May;105(4):1418-27. Epub 2008 Jan 21. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/18221374</references>
+        <known-action>unknown</known-action>
+      </target>
+      <target position="3" partner="872">
+        <actions>
+          <action>negative modulator</action>
+        </actions>
+        <references># Hanrahan JR, Chebib M, Davucheron NL, Hall BJ, Johnston GA: Semisynthetic preparation of amentoflavone: A negative modulator at GABA(A) receptors. Bioorg Med Chem Lett. 2003 Jul 21;13(14):2281-4. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/12824018</references>
+        <known-action>unknown</known-action>
+      </target>
+      <target position="4" partner="4100">
+        <actions>
+          <action>negative modulator</action>
+        </actions>
+        <references># Hanrahan JR, Chebib M, Davucheron NL, Hall BJ, Johnston GA: Semisynthetic preparation of amentoflavone: A negative modulator at GABA(A) receptors. Bioorg Med Chem Lett. 2003 Jul 21;13(14):2281-4. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/12824018</references>
+        <known-action>unknown</known-action>
+      </target>
+      <target position="5" partner="6086">
+        <actions>
+          <action>negative modulator</action>
+        </actions>
+        <references># Hanrahan JR, Chebib M, Davucheron NL, Hall BJ, Johnston GA: Semisynthetic preparation of amentoflavone: A negative modulator at GABA(A) receptors. Bioorg Med Chem Lett. 2003 Jul 21;13(14):2281-4. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/12824018</references>
+        <known-action>unknown</known-action>
+      </target>
+    </targets>
+    <enzymes>
+      <enzyme position="1" partner="4757">
+        <actions>
+          <action>inhibitor</action>
+        </actions>
+        <references># Yale SH, Glurich I: Analysis of the inhibitory potential of Ginkgo biloba, Echinacea purpurea, and Serenoa repens on the metabolic activity of cytochrome P450 3A4, 2D6, and 2C9. J Altern Complement Med. 2005 Jun;11(3):433-9. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/15992226
+# Greenblatt DJ, von Moltke LL, Luo Y, Perloff ES, Horan KA, Bruce A, Reynolds RC, Harmatz JS, Avula B, Khan IA, Goldman P: Ginkgo biloba does not alter clearance of flurbiprofen, a cytochrome P450-2C9 substrate. J Clin Pharmacol. 2006 Feb;46(2):214-21. "Pubmed":http://www.ncbi.nlm.nih.gov/pubmed/16432273</references>
+      </enzyme>
+    </enzymes>
+    <transporters/>
+    <carriers/>
+  </drug>
+
+</drugs>

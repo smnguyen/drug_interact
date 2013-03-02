@@ -1,0 +1,37 @@
+<% content_for :title, "Find Interactions" %>
+
+<table cellpadding="0">
+	<tr>
+		<td>Drugbank ID</td>
+		<td>Name</td>
+		<td>Description</td>
+		<td>Indication</td>
+	</tr>
+	<% @consumables.each do |consumable| %>
+	<tr>
+		<td><%= consumable.drugbank_id %></td>
+		<td><%= consumable.name %></td>
+		<td><%= consumable.description %></td>
+		<td><%= consumable.indication_text %></td>
+	</tr>
+	<% end %>
+</table>
+<br />
+<% if @interactions.empty? %>
+<p>No interactions found</p>
+<% else %>
+<table cellpadding="0">
+	<tr>
+		<td>Consumable A</td>
+		<td>Consumable B</td>
+		<td>Interaction</td>
+	</tr>
+	<% @interactions.each do |interaction| %>
+	<tr>
+		<td><%= interaction.consumable.name %></td>
+		<td><%= interaction.interactant.name %></td>
+		<td><%= interaction.description %></td>
+	</tr>
+	<% end %>
+</table>
+<% end %>
