@@ -1,6 +1,6 @@
 require 'nokogiri'
 
-drugbank = File.open("small.xml")
+drugbank = File.open('drugbank.xml')
 xml = Nokogiri::XML(drugbank) do |config|
 	config.options = 
   		Nokogiri::XML::ParseOptions::RECOVER | 
@@ -11,11 +11,9 @@ drugbank.close
 
 xml.css('drugs > drug').each do |node|
 	drug = Nokogiri::XML(node.to_s)
-	puts drug.xpath('drug/drugbank-id').text.strip
-	puts drug.xpath('drug/name').text.strip
-	drug.xpath('drug/drug-interactions/drug-interaction').each do |int|
-		puts (int > 'drug').text
-		puts (int > 'description').text
+	db_id = drug.xpath('drug/drugbank-id').text
+	name = drug.xpath('drug/name').text
+	drug.xpath('drug/food-interactions/food-interaction').each do |food_node|
+		puts "#{db_id}\t#{name}\t#{food_node.text}" 
 	end
-	puts "\n"
 end

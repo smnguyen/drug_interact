@@ -11,7 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130301015305) do
+ActiveRecord::Schema.define(:version => 20130304060739) do
+
+  create_table "active_ingredients_brands", :id => false, :force => true do |t|
+    t.integer "brand_id"
+    t.integer "active_ingredient_id"
+  end
+
+  create_table "brands", :force => true do |t|
+    t.string "name"
+    t.string "mixture"
+  end
 
   create_table "categories", :force => true do |t|
     t.string "name"
@@ -27,6 +37,9 @@ ActiveRecord::Schema.define(:version => 20130301015305) do
     t.string "name"
     t.string "description"
     t.string "indication_text"
+    t.string "mechanism"
+    t.string "reference"
+    t.string "type"
   end
 
   create_table "interactions", :force => true do |t|
