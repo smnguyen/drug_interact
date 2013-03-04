@@ -1,0 +1,3 @@
+class Food < Consumable
+	
+end

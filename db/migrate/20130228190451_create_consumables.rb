@@ -5,6 +5,9 @@ class CreateConsumables < ActiveRecord::Migration
 			t.column :name, 			:string
 			t.column :description,		:string
 			t.column :indication_text, 	:string
+			t.column :mechanism,		:string
+			t.column :reference,		:string
+			t.column :type,				:string
 		end
 	end
 

@@ -16,26 +16,30 @@ class LoadData < ActiveRecord::Migration
 			data = Nokogiri::XML(drug_node.to_s)
 			
 			# OPTIMIZE: skip drug if certain fields are empty??
-			# TODO: strip  HTML from fields
+			# TODO: strip HTML from fields
 			# add consumable
 			id = data.xpath('drug/drugbank-id').text
 			name = data.xpath('drug/name').text
 			description = data.xpath('drug/description').text
 			indication = data.xpath('drug/indication').text
-			consumable = Consumable.new(
+			mechanism = data.xpath('drug/mechanism-of-action').text
+			reference = data.xpath('drug/general-references').text
+			ingredient = ActiveIngredient.new(
 				:drugbank_id => id,
 				:name => name,
 				:description => description,
-				:indication_text => indication
+				:indication_text => indication,
+				:mechanism => mechanism,
+				:reference => reference
 			)
 
 			# add synonyms
 			data.xpath('drug/synonyms/synonym').each do |synonym_node|
 				synonym = Synonym.new(
-					:consumable_id => consumable.id,
+					:consumable_id => ingredient.id,
 					:synonym => synonym_node.text
 				)
-				consumable.synonyms << synonym
+				ingredient.synonyms << synonym
 			end
 
 			# add categories
@@ -44,46 +48,40 @@ class LoadData < ActiveRecord::Migration
 				if category.nil?
 					category = Category.new(:name => category_node.text)
 				end
-				consumable.categories << category
+				ingredient.categories << category
 			end
 
-			consumable.save(:validate => false)
+			ingredient.save(:validate => false)
 		end
 
 		# load interactions
 		xml.css('drugs > drug').each do |drug_node|
 			data = Nokogiri::XML(drug_node.to_s)
 			drugbank_id = data.xpath('drug/drugbank-id').text
-			consumable = Consumable.find_by_drugbank_id(drugbank_id)
+			ingredient = ActiveIngredient.find_by_drugbank_id(drugbank_id)
 
 			data.xpath('drug/drug-interactions/drug-interaction').each do |i_node|
 				interactant_dbid = (i_node > 'drug').text
 				description = (i_node > 'description').text
-				interactant = Consumable.find_by_drugbank_id(interactant_dbid)
+				interactant = ActiveIngredient.find_by_drugbank_id(interactant_dbid)
 				if interactant.nil? then next end
 				
-				# OPTIMIZE: don't need interaction_forward??
-				interaction_forward = Interaction.find(
+				small_id = [ingredient.id, interactant.id].min
+				large_id = [ingredient.id, interactant.id].max
+				interaction = Interaction.find(
 					:first,
 					:conditions => {
-						:consumable_id => consumable.id,
-						:interactant_id => interactant.id
+						:consumable_id => small_id,
+						:interactant_id => large_id
 					}					
 				)
-				interaction_reverse = Interaction.find(
-					:first,
-					:conditions => {
-						:consumable_id => interactant.id,
-						:interactant_id => consumable.id
-					}					
-				)
-				if !(interaction_forward.nil? && interaction_reverse.nil?)
+				if !interaction.nil?
 					next 
 				end
 				
 				interaction = Interaction.new(
-					:consumable_id => consumable.id,
-					:interactant_id => interactant.id,
+					:consumable_id => small_id,
+					:interactant_id => large_id,
 					:description => description
 				)
 				interaction.save(:validate => false)
@@ -92,7 +90,7 @@ class LoadData < ActiveRecord::Migration
 	end
 
 	def down
-		Consumable.delete_all
+		ActiveIngredient.delete_all
 		Synonym.delete_all
 		Category.delete_all
 		Interaction.delete_all
