@@ -9,6 +9,7 @@ class InteractionsController < ApplicationController
 		consumable_ids = []
 		params[:ids].each do |id_str|
 			begin
+				#finds consumable based on id
 				consumable = Consumable.find(id_str.to_i)
 			rescue ActiveRecord::RecordNotFound
 				next
