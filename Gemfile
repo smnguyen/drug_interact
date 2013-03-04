@@ -40,7 +40,6 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'nokogiri'
-<<<<<<< HEAD
-=======
+
 gem 'oba-client'
->>>>>>> e3d74718dc414bb9e5e828e1355d6b8d38afe4f4
+
