@@ -15,7 +15,11 @@
 		<td><%= consumable.name %></td>
 		<td><%= consumable.description %></td>
 		<td><%= consumable.indication_text %></td>
-		<td><a href="<%= "http://www.drugbank.ca/drugs/"+consumable.drugbank_id %>">Drugbank</a></td>
+		<td>
+			<li><a href="<%= "http://www.drugbank.ca/drugs/"+consumable.drugbank_id %>">Drugbank</a></li>
+			<li><a href="<%= "http://www.micromedexsolutions.com.laneproxy.stanford.edu/micromedex2/librarian/ND_T/evidencexpert/ND_PR/evidencexpert/CS/E7D7AE/ND_AppProduct/evidencexpert/DUPLICATIONSHIELDSYNC/F94375/ND_PG/evidencexpert/ND_B/evidencexpert/ND_P/evidencexpert/PFActionId/evidencexpert.DoIntegratedSearch?SearchTerm="+consumable.name %>">MicroMedex</a></li>
+			<li><a href="<%= "http://www.drugs.com/search.php?searchterm="+consumable.name %>">Drugs.com</a></li>
+		</td>
 	</tr>
 	<% end %>
 </table>
