@@ -1,11 +1,13 @@
 <% content_for :title, "Find Interactions" %>
-
-<table cellpadding="0">
+<h1>Search Results</h1>
+<h2>Drug/Food Info</h2>
+<table class = "table" cellpadding="0">
 	<tr>
-		<td>Drugbank ID</td>
-		<td>Name</td>
-		<td>Description</td>
-		<td>Indication</td>
+		<th>Drugbank ID</th>
+		<th>Name</th>
+		<th>Description</th>
+		<th>Indication</th>
+		<th>External links</th>
 	</tr>
 	<% @consumables.each do |consumable| %>
 	<tr>
@@ -13,6 +15,7 @@
 		<td><%= consumable.name %></td>
 		<td><%= consumable.description %></td>
 		<td><%= consumable.indication_text %></td>
+		<td><a href="<%= "http://www.drugbank.ca/drugs/"+consumable.drugbank_id %>">Drugbank</a></td>
 	</tr>
 	<% end %>
 </table>
@@ -20,11 +23,12 @@
 <% if @interactions.empty? %>
 <p>No interactions found</p>
 <% else %>
-<table cellpadding="0">
+<h2>Interaction Info</h2>
+<table class = "table" cellpadding="0">
 	<tr>
-		<td>Consumable A</td>
-		<td>Consumable B</td>
-		<td>Interaction</td>
+		<th>Consumable A</th>
+		<th>Consumable B</th>
+		<th>Interaction</th>
 	</tr>
 	<% @interactions.each do |interaction| %>
 	<tr>
@@ -35,3 +39,13 @@
 	<% end %>
 </table>
 <% end %>
+<h2>Alternative Drug Search</h2>
+  <form accept-charset="UTF-8" action="/findalternative" method="get">
+    <label>Drug/food to replace</label>
+    <input name="ids[]"  />
+    <label>Indication to search for</label>
+    <input name="ids[]" />
+    <label></label>
+    <%= submit_tag("Search") %>
+  </form>
+
