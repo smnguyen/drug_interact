@@ -10,7 +10,12 @@ class InteractionsController < ApplicationController
 		params[:ids].each do |id_str|
 			begin
 				#finds consumable based on id
-				consumable = Consumable.find(id_str.to_i)
+				#consumable = Consumable.find(id_str.to_i)
+				#consumable = Consumable.find(:all, :params => { :name => id_str })
+				consumable = Consumable.where(["name = ?", id_str]).first
+				if consumable.nil?
+					consumable = Consumable.joins(:synonyms).where(["synonym = ?", id_str]).first
+				end
 			rescue ActiveRecord::RecordNotFound
 				next
 			end
