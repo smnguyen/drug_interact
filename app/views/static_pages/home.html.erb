@@ -1,0 +1,15 @@
+<% provide(:title, 'Drugs and Food Interaction Checker | Home') %>
+<div class="center hero-unit">
+  <h1>Welcome to the Drugs and Food Interaction Checker</h1>
+  
+  <form accept-charset="UTF-8" action="/find" method="get">
+    <label>Drug/food #1</label>
+    <input name="ids[]"  />
+    <label>Drug/food #2</label>
+    <input name="ids[]" />
+    <label></label>
+    <%= submit_tag("Search") %>
+  </form>
+
+  
+</div>
