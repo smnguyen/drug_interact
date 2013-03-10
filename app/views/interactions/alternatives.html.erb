@@ -1,0 +1,43 @@
+<% content_for :title, "Drug Alternatives" %>
+
+<h1>Drug Alternatives</h1>
+<h2>Drug/Food Info</h2>
+<table class = "table" cellpadding="0">
+	<tr>
+		<th>Name</th>
+		<th>Description</th>
+		<th>Indication</th>
+		<th>External links</th>
+	</tr>
+	<% @alternatives.each do |consumable| %>
+	<% if consumable.type == "Food" %>
+	<tr>
+		<td>Food</td>
+		<td><%= consumable.name %></td>
+		<td/>
+		<td/>
+		<td/>
+	</tr>
+	<% else %>
+	<tr>
+		<td><%= consumable.name %></td>
+		<td><%= consumable.description %></td>
+		<td><%= consumable.indication_text %></td>
+		<% if @isPhysician %>
+			<td>
+				<li><%= link_to "Drugbank", consumable.drugbank_url %></li>
+				<li><%= link_to "MicroMedex", consumable.micromedex_url %></li>
+			</td>
+		<% else %>
+			<td>
+				<li><%= link_to "WebMD", consumable.web_md_url %></li>
+				<li><%= link_to "Drugs.com", consumable.drugs_com_url %></li>
+			</td>
+		<% end %>
+	</tr>
+	<% end %>
+	<% end %>
+</table>
+
+
+

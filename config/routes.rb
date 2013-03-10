@@ -15,6 +15,9 @@ DrugInteract::Application.routes.draw do
   match '/', to: 'static_pages#home'
   
   match '/find', 		to: 'interactions#find'
+  
+  match '/alternatives', 		to: 'interactions#alternatives'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
