@@ -9,9 +9,15 @@ class CreateIndications < ActiveRecord::Migration
 			annotation[:concept][:semanticTypes].each do |semantic_type|
 				description = semantic_type[:description]
 				if description == "Disease or Syndrome" ||
-			   	   description == "Neoplastic Process" ||
-			   	   description == "Injury or Poisoning" ||
-			       description == "Therapeutic or Preventive Procedure"
+				   description == "Neoplastic Process" ||
+				   description == "Injury or Poisoning" ||
+				   description == "Therapeutic or Preventive Procedure" ||
+				   description == "Mental or Behavioral Dysfunction" ||
+				   description == "Sign or Symptom" ||
+				   description == "Pathological Function" ||
+				   description == "Finding" ||
+				   description == "Diagnostic Procedure" ||
+				   description == "Pharmacologic Substance"
 
 			    	terms << term
 			    	break
@@ -80,7 +86,7 @@ class CreateIndications < ActiveRecord::Migration
 			t.column :indication_id,			:integer
 		end
 
-		# load_indications
+		load_indications
 	end
 
 	def down

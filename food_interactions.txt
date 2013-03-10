@@ -1,0 +1,534 @@
+DB00006	"Dan shen, dong quai, evening primrose oil, gingko, policosanol, willow bark"	Danshen	Dong quai	Evening primrose oil	Gingko	Policosanol	Willow bark		
+DB00006	Echinacea	Echinacea							
+DB00262	Echinacea	Echinacea							
+DB00011	Avoid alcohol.	Alcohol							
+DB00034	Avoid alcohol.	Alcohol							
+DB00105	Avoid alcohol.	Alcohol							
+DB00175	Avoid alcohol.	Alcohol							
+DB00176	Avoid alcohol.	Alcohol							
+DB00181	Avoid alcohol.	Alcohol							
+DB00186	Avoid alcohol.	Alcohol							
+DB00199	Avoid alcohol.	Alcohol							
+DB00215	Avoid alcohol.	Alcohol							
+DB00222	Avoid alcohol.	Alcohol							
+DB00227	Avoid alcohol.	Alcohol							
+DB00231	Avoid alcohol.	Alcohol							
+DB00238	Avoid alcohol.	Alcohol							
+DB00245	Avoid alcohol.	Alcohol							
+DB00246	Avoid alcohol.	Alcohol							
+DB00252	Avoid alcohol.	Alcohol							
+DB00254	Avoid alcohol.	Alcohol							
+DB00264	Avoid alcohol.	Alcohol							
+DB00277	Avoid alcohol.	Alcohol							
+DB00280	Avoid alcohol.	Alcohol							
+DB00283	Avoid alcohol.	Alcohol							
+DB00285	Avoid alcohol.	Alcohol							
+DB00286	Avoid alcohol.	Alcohol							
+DB00294	Avoid alcohol.	Alcohol							
+DB00295	Avoid alcohol.	Alcohol							
+DB00313	Avoid alcohol.	Alcohol							
+DB00318	Avoid alcohol.	Alcohol							
+DB00321	Avoid alcohol.	Alcohol							
+DB00328	Avoid alcohol.	Alcohol							
+DB00331	Avoid alcohol.	Alcohol							
+DB00334	Avoid alcohol.	Alcohol							
+DB00338	Avoid alcohol.	Alcohol							
+DB00341	Avoid alcohol.	Alcohol							
+DB00356	Avoid alcohol.	Alcohol							
+DB00358	Avoid alcohol.	Alcohol							
+DB00363	Avoid alcohol.	Alcohol							
+DB00364	Avoid alcohol.	Alcohol							
+DB00367	Avoid alcohol.	Alcohol							
+DB00395	Avoid alcohol.	Alcohol							
+DB00396	Avoid alcohol.	Alcohol							
+DB00404	Avoid alcohol.	Alcohol							
+DB00414	Avoid alcohol.	Alcohol							
+DB00421	Avoid alcohol.	Alcohol							
+DB00422	Avoid alcohol.	Alcohol							
+DB00423	Avoid alcohol.	Alcohol							
+DB00425	Avoid alcohol.	Alcohol							
+DB00433	Avoid alcohol.	Alcohol							
+DB00434	Avoid alcohol.	Alcohol							
+DB00437	Avoid alcohol.	Alcohol							
+DB00448	Avoid alcohol.	Alcohol							
+DB00457	Avoid alcohol.	Alcohol							
+DB00458	Avoid alcohol.	Alcohol							
+DB00461	Avoid alcohol.	Alcohol							
+DB00470	Avoid alcohol.	Alcohol							
+DB00472	Avoid alcohol.	Alcohol							
+DB00475	Avoid alcohol.	Alcohol							
+DB00477	Avoid alcohol.	Alcohol							
+DB00481	Avoid alcohol.	Alcohol							
+DB00490	Avoid alcohol.	Alcohol							
+DB00501	Avoid alcohol.	Alcohol							
+DB00540	Avoid alcohol.	Alcohol							
+DB00543	Avoid alcohol.	Alcohol							
+DB00557	Avoid alcohol.	Alcohol							
+DB00564	Avoid alcohol.	Alcohol							
+DB00571	Avoid alcohol.	Alcohol							
+DB00572	Avoid alcohol.	Alcohol							
+DB00573	Avoid alcohol.	Alcohol							
+DB00575	Avoid alcohol.	Alcohol							
+DB00585	Avoid alcohol.	Alcohol							
+DB00586	Avoid alcohol.	Alcohol							
+DB00590	Avoid alcohol.	Alcohol							
+DB00593	Avoid alcohol.	Alcohol							
+DB00611	Avoid alcohol.	Alcohol							
+DB00623	Avoid alcohol.	Alcohol							
+DB00627	Avoid alcohol.	Alcohol							
+DB00628	Avoid alcohol.	Alcohol							
+DB00635	Avoid alcohol.	Alcohol							
+DB00641	Avoid alcohol.	Alcohol							
+DB00656	Avoid alcohol.	Alcohol							
+DB00661	Avoid alcohol.	Alcohol							
+DB00665	Avoid alcohol.	Alcohol							
+DB00672	Avoid alcohol.	Alcohol							
+DB00682	Avoid alcohol.	Alcohol							
+DB00690	Avoid alcohol.	Alcohol							
+DB00695	Avoid alcohol.	Alcohol							
+DB00712	Avoid alcohol.	Alcohol							
+DB00719	Avoid alcohol.	Alcohol							
+DB00727	Avoid alcohol.	Alcohol							
+DB00749	Avoid alcohol.	Alcohol							
+DB00752	Avoid alcohol.	Alcohol							
+DB00780	Avoid alcohol.	Alcohol							
+DB00784	Avoid alcohol.	Alcohol							
+DB00788	Avoid alcohol.	Alcohol							
+DB00794	Avoid alcohol.	Alcohol							
+DB00804	Avoid alcohol.	Alcohol							
+DB00810	Avoid alcohol.	Alcohol							
+DB00813	Avoid alcohol.	Alcohol							
+DB00829	Avoid alcohol.	Alcohol							
+DB00835	Avoid alcohol.	Alcohol							
+DB00842	Avoid alcohol.	Alcohol							
+DB00843	Avoid alcohol.	Alcohol							
+DB00850	Avoid alcohol.	Alcohol							
+DB00861	Avoid alcohol.	Alcohol							
+DB00863	Avoid alcohol.	Alcohol							
+DB00875	Avoid alcohol.	Alcohol							
+DB00900	Avoid alcohol.	Alcohol							
+DB00915	Avoid alcohol.	Alcohol							
+DB00916	Avoid alcohol.	Alcohol							
+DB00924	Avoid alcohol.	Alcohol							
+DB00927	Avoid alcohol.	Alcohol							
+DB00951	Avoid alcohol.	Alcohol							
+DB00956	Avoid alcohol.	Alcohol							
+DB00957	Avoid alcohol.	Alcohol							
+DB00968	Avoid alcohol.	Alcohol							
+DB00980	Avoid alcohol.	Alcohol							
+DB00982	Avoid alcohol.	Alcohol							
+DB00985	Avoid alcohol.	Alcohol							
+DB00996	Avoid alcohol.	Alcohol							
+DB00999	Avoid alcohol.	Alcohol							
+DB01009	Avoid alcohol.	Alcohol							
+DB01016	Avoid alcohol.	Alcohol							
+DB01026	Avoid alcohol.	Alcohol							
+DB01035	Avoid alcohol.	Alcohol							
+DB01045	Avoid alcohol.	Alcohol							
+DB01048	Avoid alcohol.	Alcohol							
+DB01050	Avoid alcohol.	Alcohol							
+DB01062	Avoid alcohol.	Alcohol							
+DB01067	Avoid alcohol.	Alcohol							
+DB01068	Avoid alcohol.	Alcohol							
+DB01075	Avoid alcohol.	Alcohol							
+DB01076	Avoid alcohol.	Alcohol							
+DB01081	Avoid alcohol.	Alcohol							
+DB01104	Avoid alcohol.	Alcohol							
+DB01114	Avoid alcohol.	Alcohol							
+DB01115	Avoid alcohol.	Alcohol							
+DB01120	Avoid alcohol.	Alcohol							
+DB01142	Avoid alcohol.	Alcohol							
+DB01149	Avoid alcohol.	Alcohol							
+DB01151	Avoid alcohol.	Alcohol							
+DB01156	Avoid alcohol.	Alcohol							
+DB01174	Avoid alcohol.	Alcohol							
+DB01176	Avoid alcohol.	Alcohol							
+DB01200	Avoid alcohol.	Alcohol							
+DB01203	Avoid alcohol.	Alcohol							
+DB01215	Avoid alcohol.	Alcohol							
+DB01224	Avoid alcohol.	Alcohol							
+DB01234	Avoid alcohol.	Alcohol							
+DB01239	Avoid alcohol.	Alcohol							
+DB01242	Avoid alcohol.	Alcohol							
+DB01267	Avoid alcohol.	Alcohol							
+DB01297	Avoid alcohol.	Alcohol							
+DB01320	Avoid alcohol.	Alcohol							
+DB01348	Avoid alcohol.	Alcohol							
+DB01356	Avoid alcohol.	Alcohol							
+DB01437	Avoid alcohol.	Alcohol							
+DB01495	Avoid alcohol.	Alcohol							
+DB01544	Avoid alcohol.	Alcohol							
+DB01567	Avoid alcohol.	Alcohol							
+DB01580	Avoid alcohol.	Alcohol							
+DB01588	Avoid alcohol.	Alcohol							
+DB01594	Avoid alcohol.	Alcohol							
+DB01595	Avoid alcohol.	Alcohol							
+DB01600	Avoid alcohol.	Alcohol							
+DB01613	Avoid alcohol.	Alcohol							
+DB01619	Avoid alcohol.	Alcohol							
+DB04836	Avoid alcohol.	Alcohol							
+DB04837	Avoid alcohol.	Alcohol							
+DB04839	Avoid alcohol.	Alcohol							
+DB04841	Avoid alcohol.	Alcohol							
+DB04842	Avoid alcohol.	Alcohol							
+DB00091	Avoid salt substitutes containing potassium.	Salt (potassium)							
+DB00390	Avoid salt substitutes containing potassium.	Salt (potassium)							
+DB00594	Avoid salt substitutes containing potassium.	Salt (potassium)							
+DB01396	Avoid salt substitutes containing potassium.	Salt (potassium)							
+DB00091	Avoid taking with grapefruit or grapefruit juice as grapefruit can significantly increase serum levels of this product.	Grapefruit							
+DB00829	Avoid taking with grapefruit or grapefruit juice as grapefruit can significantly increase serum levels of this product.	Grapefruit							
+DB01587	Avoid taking with grapefruit or grapefruit juice as grapefruit can significantly increase serum levels of this product.	Grapefruit							
+DB00091	"Red wine may reduce cyclosporine levels due to increased metabolism, therefore it appears prudent  to avoid red wine (white wine does not appear to affect cyclosporine metabolism)."	Red wine							
+DB00176	Avoid high doses of caffeine.	Caffeine							
+DB00794	Avoid high doses of caffeine.	Caffeine							
+DB00816	Avoid high doses of caffeine.	Caffeine							
+DB01059	Avoid high doses of caffeine.	Caffeine							
+DB01165	Avoid high doses of caffeine.	Caffeine							
+DB01230	Avoid high doses of caffeine.	Caffeine							
+DB01303	Avoid high doses of caffeine.	Caffeine							
+DB00176	Grapefruit and grapefruit juice should be avoided throughout treatment as grapefruit can significantly increase serum levels of this product.	Grapefruit							
+DB00439	Grapefruit and grapefruit juice should be avoided throughout treatment as grapefruit can significantly increase serum levels of this product.	Grapefruit							
+DB00178	Alcohol may increase the vasodilatory effects of ramipril. 	Alcohol							
+DB00178	"Herbs that may attenuate the antihypertensive effect of ramipril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice.  "	Bayberry	Blue cohash	Cayenne	Ephedra	Ginger	Ginseng	Kola	Licorice
+DB00178	High salt intake may attenuate the antihypertensive effect of ramipril. 	Salt							
+DB00178	Ramipril decreases the excretion of potassium. Salt substitutes containing potassium increase the risk of hyperkalemia. 	Salt (potassium)							
+DB00186	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00231	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00277	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00286	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00294	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00367	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00396	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00404	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00422	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00537	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00585	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00661	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00780	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00842	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00863	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00957	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB01068	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB01174	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB01356	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB01544	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB01567	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB01588	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB01594	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB01595	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB04836	Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00188	Citrus fruits - Patients should avoid taking extra vitamin C (ascorbic acid) supplements and vitamin C-containing multi-vitamins during their bortezomib therapy. Ascorbic Acid may diminish the therapeutic effect of Bortezomib.	Supplement (Vitamin C)							
+DB00188	Green Tea - Green Tea may diminish the antineoplastic effect of Bortezomib. Avoid concurrent use of green tea extract and other green tea products during treatment with bortezomib. 	Green tea							
+DB00189	Avoid alcohol	Alcohol							
+DB01452	Avoid alcohol	Alcohol							
+DB01587	Avoid alcohol	Alcohol							
+DB01614	Avoid alcohol	Alcohol							
+DB01621	Avoid alcohol	Alcohol							
+DB01622	Avoid alcohol	Alcohol							
+DB01623	Avoid alcohol	Alcohol							
+DB05246	Avoid alcohol	Alcohol							
+DB06691	Avoid alcohol	Alcohol							
+DB06701	Avoid alcohol	Alcohol							
+DB00191	Limit caffeine intake.	Caffeine							
+DB00397	Limit caffeine intake.	Caffeine							
+DB00501	Limit caffeine intake.	Caffeine							
+DB00927	Limit caffeine intake.	Caffeine							
+DB01223	Limit caffeine intake.	Caffeine							
+DB00199	Take with a full glass of water Avoid taking with grapefruit juice.	Grapefruit							
+DB00205	Folic acid needs increased.	Supplement (folic acid)							
+DB00206	"Magnesium, potassium and zinc needs increased."	Supplement (magnesium)	Supplement (potassium)	Supplement (zinc)					
+DB00960	"Magnesium, potassium and zinc needs increased."	Supplement (magnesium)	Supplement (potassium)	Supplement (zinc)					
+DB01203	"Magnesium, potassium and zinc needs increased."	Supplement (magnesium)	Supplement (potassium)	Supplement (zinc)					
+DB00206	Take with food to reduce irritation. Avoid alcohol.	Alcohol							
+DB00408	Take with food to reduce irritation. Avoid alcohol.	Alcohol							
+DB00737	Take with food to reduce irritation. Avoid alcohol.	Alcohol							
+DB00812	Take with food to reduce irritation. Avoid alcohol.	Alcohol							
+DB01069	Take with food to reduce irritation. Avoid alcohol.	Alcohol							
+DB01608	Take with food to reduce irritation. Avoid alcohol.	Alcohol							
+DB00207	Do not take Aluminum or magnesium antacids or supplements while on this medication.	Supplement (magnesium)	Supplement (aluminum)	Antacid					
+DB00585	Do not take Aluminum or magnesium antacids or supplements while on this medication.	Supplement (magnesium)	Supplement (aluminum)	Antacid					
+DB01017	Do not take Aluminum or magnesium antacids or supplements while on this medication.	Supplement (magnesium)	Supplement (aluminum)	Antacid					
+DB00215	Avoid St.John's Wort.	St. John's Wort							
+DB00285	Avoid St.John's Wort.	St. John's Wort							
+DB00321	Avoid St.John's Wort.	St. John's Wort							
+DB00458	Avoid St.John's Wort.	St. John's Wort							
+DB00503	Avoid St.John's Wort.	St. John's Wort							
+DB00780	Avoid St.John's Wort.	St. John's Wort							
+DB01104	Avoid St.John's Wort.	St. John's Wort							
+DB01142	Avoid St.John's Wort.	St. John's Wort							
+DB01156	Avoid St.John's Wort.	St. John's Wort							
+DB01601	Avoid St.John's Wort.	St. John's Wort							
+DB04836	Avoid St.John's Wort.	St. John's Wort							
+DB00216	Exposure to the product (area below curve) and  maximum concentrations are increased when product is taken with a high-fat meal.	High-fat meal							
+DB00224	Avoid excessive or chronic alcohol use.	Alcohol							
+DB00224	Avoid taking with grapefruit juice	Grapefruit							
+DB00227	Avoid taking with grapefruit juice.	Grapefruit							
+DB00404	Avoid taking with grapefruit juice.	Grapefruit							
+DB00635	Avoid taking with grapefruit juice.	Grapefruit							
+DB00641	Avoid taking with grapefruit juice.	Grapefruit							
+DB00661	Avoid taking with grapefruit juice.	Grapefruit							
+DB01104	Avoid taking with grapefruit juice.	Grapefruit							
+DB01167	Avoid taking with grapefruit juice.	Grapefruit							
+DB01234	Avoid taking with grapefruit juice.	Grapefruit							
+DB01544	Avoid taking with grapefruit juice.	Grapefruit							
+DB01567	Avoid taking with grapefruit juice.	Grapefruit							
+DB01588	Avoid taking with grapefruit juice.	Grapefruit							
+DB00230	Avoid alcohol (may increase CNS effects).	Alcohol							
+DB00231	Avoid avocado.	Avocado							
+DB00390	Avoid avocado.	Avocado							
+DB01149	Avoid avocado.	Avocado							
+DB01396	Avoid avocado.	Avocado							
+DB00242	"Echinacea should be used with caution, if at all, in patients receiving therapeutic immunosuppressants. Monitor for reduced efficacy of the immunosuppressant during concomitant use. "	Echinacea							
+DB00515	"Echinacea should be used with caution, if at all, in patients receiving therapeutic immunosuppressants. Monitor for reduced efficacy of the immunosuppressant during concomitant use. "	Echinacea							
+DB00631	"Echinacea should be used with caution, if at all, in patients receiving therapeutic immunosuppressants. Monitor for reduced efficacy of the immunosuppressant during concomitant use. "	Echinacea							
+DB00243	Grapefruit and grapefruit juice should be avoided throughout treatment.	Grapefruit							
+DB01118	Grapefruit and grapefruit juice should be avoided throughout treatment.	Grapefruit							
+DB00252	"Do not take calcium, aluminum, magnesium or Iron supplements within 2 hours of taking this medication."	Supplement (calcium)	Supplement (aluminum)	Supplement (magnesium)	Supplement (iron)				
+DB00364	"Do not take calcium, aluminum, magnesium or Iron supplements within 2 hours of taking this medication."	Supplement (calcium)	Supplement (aluminum)	Supplement (magnesium)	Supplement (iron)				
+DB00850	"Do not take calcium, aluminum, magnesium or Iron supplements within 2 hours of taking this medication."	Supplement (calcium)	Supplement (aluminum)	Supplement (magnesium)	Supplement (iron)				
+DB00951	"Do not take calcium, aluminum, magnesium or Iron supplements within 2 hours of taking this medication."	Supplement (calcium)	Supplement (aluminum)	Supplement (magnesium)	Supplement (iron)				
+DB00999	"Do not take calcium, aluminum, magnesium or Iron supplements within 2 hours of taking this medication."	Supplement (calcium)	Supplement (aluminum)	Supplement (magnesium)	Supplement (iron)				
+DB01320	"Do not take calcium, aluminum, magnesium or Iron supplements within 2 hours of taking this medication."	Supplement (calcium)	Supplement (aluminum)	Supplement (magnesium)	Supplement (iron)				
+DB00254	"Avoid milk, calcium containing dairy products, iron, antacids, or aluminum salts 2 hours before or 6 hours after using antacids while on this medication."	Milk	Dairy (calcium)	Supplement (iron)	Antacid	Salt (aluminum)			
+DB00390	"Avoid milk, calcium containing dairy products, iron, antacids, or aluminum salts 2 hours before or 6 hours after using antacids while on this medication."	Milk	Dairy (calcium)	Supplement (iron)	Antacid	Salt (aluminum)			
+DB00863	"Avoid milk, calcium containing dairy products, iron, antacids, or aluminum salts 2 hours before or 6 hours after using antacids while on this medication."	Milk	Dairy (calcium)	Supplement (iron)	Antacid	Salt (aluminum)			
+DB01026	"Avoid milk, calcium containing dairy products, iron, antacids, or aluminum salts 2 hours before or 6 hours after using antacids while on this medication."	Milk	Dairy (calcium)	Supplement (iron)	Antacid	Salt (aluminum)			
+DB01167	"Avoid milk, calcium containing dairy products, iron, antacids, or aluminum salts 2 hours before or 6 hours after using antacids while on this medication."	Milk	Dairy (calcium)	Supplement (iron)	Antacid	Salt (aluminum)			
+DB01396	"Avoid milk, calcium containing dairy products, iron, antacids, or aluminum salts 2 hours before or 6 hours after using antacids while on this medication."	Milk	Dairy (calcium)	Supplement (iron)	Antacid	Salt (aluminum)			
+DB00254	"Take with a full glass of water Do not take calcium, aluminum, magnesium or Iron supplements within 2 hours of taking this medication."	Supplement (calcium)	Supplement (aluminum)	Supplement (magnesium)	Supplement (iron)				
+DB00256	"Do not to take any indigestion remedies, iron or zinc supplements at the same time as this medicine."	Supplement (iron)	Supplement (zinc)						
+DB00264	Avoid natural licorice.	Licorice							
+DB00343	Avoid natural licorice.	Licorice							
+DB00381	Avoid natural licorice.	Licorice							
+DB00457	Avoid natural licorice.	Licorice							
+DB00571	Avoid natural licorice.	Licorice							
+DB00590	Avoid natural licorice.	Licorice							
+DB00594	Avoid natural licorice.	Licorice							
+DB00661	Avoid natural licorice.	Licorice							
+DB00968	Avoid natural licorice.	Licorice							
+DB00999	Avoid natural licorice.	Licorice							
+DB01115	Avoid natural licorice.	Licorice							
+DB01203	Avoid natural licorice.	Licorice							
+DB01297	Avoid natural licorice.	Licorice							
+DB01580	Avoid natural licorice.	Licorice							
+DB00278	"Herbs and food with anticoagulant/antiplatelet activity. Major interactions may occur with danshen, dong quai, evening primrose oil, gingko, policosanol, willow bark"	Danshen	Dong quai	Evening primrose oil	Gingko	Policosanol	Willow bark		
+DB00291	"Echinacea should be used with caution, if at all, in patients receiving therapeutic immunosuppressants. Monitor for reduced efficacy of the immunosuppressant during concomitant use."	Echinacea							
+DB00294	"Increase dietary intake of magnesium, folate, vitamin B6, B12, and/or consider taking a multivitamin."	Supplement (magnesium)	Supplement (folic acid)	Supplement (Vitamin B6)	Supplement (Vitamin B12)				
+DB00367	"Increase dietary intake of magnesium, folate, vitamin B6, B12, and/or consider taking a multivitamin."	Supplement (magnesium)	Supplement (folic acid)	Supplement (Vitamin B6)	Supplement (Vitamin B12)				
+DB00396	"Increase dietary intake of magnesium, folate, vitamin B6, B12, and/or consider taking a multivitamin."	Supplement (magnesium)	Supplement (folic acid)	Supplement (Vitamin B6)	Supplement (Vitamin B12)				
+DB00951	"Increase dietary intake of magnesium, folate, vitamin B6, B12, and/or consider taking a multivitamin."	Supplement (magnesium)	Supplement (folic acid)	Supplement (Vitamin B6)	Supplement (Vitamin B12)				
+DB00957	"Increase dietary intake of magnesium, folate, vitamin B6, B12, and/or consider taking a multivitamin."	Supplement (magnesium)	Supplement (folic acid)	Supplement (Vitamin B6)	Supplement (Vitamin B12)				
+DB00968	"Increase dietary intake of magnesium, folate, vitamin B6, B12, and/or consider taking a multivitamin."	Supplement (magnesium)	Supplement (folic acid)	Supplement (Vitamin B6)	Supplement (Vitamin B12)				
+DB01174	"Increase dietary intake of magnesium, folate, vitamin B6, B12, and/or consider taking a multivitamin."	Supplement (magnesium)	Supplement (folic acid)	Supplement (Vitamin B6)	Supplement (Vitamin B12)				
+DB00295	"To avoid constipation: increase your daily intake of fiber (beans, whole grains, vegetables)."	Fiber-rich foods							
+DB00318	"To avoid constipation: increase your daily intake of fiber (beans, whole grains, vegetables)."	Fiber-rich foods							
+DB00956	"To avoid constipation: increase your daily intake of fiber (beans, whole grains, vegetables)."	Fiber-rich foods							
+DB01452	"To avoid constipation: increase your daily intake of fiber (beans, whole grains, vegetables)."	Fiber-rich foods							
+DB00313	Do not take with milk.	Milk							
+DB00316	Avoid alcohol (may increase risk of hepatotoxicity).	Alcohol							
+DB00317	Avoid fresh grapefruit and its juice during therapy as grapefruit may increase serum product levels.	Grapefruit							
+DB00321	Avoid excessive quantities of coffee or tea (caffeine).	Caffeine							
+DB00458	Avoid excessive quantities of coffee or tea (caffeine).	Caffeine							
+DB00540	Avoid excessive quantities of coffee or tea (caffeine).	Caffeine							
+DB00752	Avoid excessive quantities of coffee or tea (caffeine).	Caffeine							
+DB00829	Avoid excessive quantities of coffee or tea (caffeine).	Caffeine							
+DB01142	Avoid excessive quantities of coffee or tea (caffeine).	Caffeine							
+DB01587	Avoid excessive quantities of coffee or tea (caffeine).	Caffeine							
+DB00327	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00370	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00371	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00454	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00486	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00497	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00647	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00652	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00715	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00776	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00854	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00960	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB01173	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB01230	Take without regard to meals. Avoid alcohol.	Alcohol							
+DB00333	Take without regard to meals. Avoid alcohol. Usually diluted in fruit juice.	Alcohol							
+DB00335	Consult your doctor before taking large amounts of Vitamin K (Green leafy vegetables).	Supplement (Vitamin K)							
+DB00349	Alcohol increases clobazam absorption by 50%.	Alcohol							
+DB00363	Limit caffeine intake (may reduce clozapine matabolism).	Caffeine							
+DB00365	Drink liberally but avoid coffee.	Caffeine							
+DB00381	"Grapefruit down regulates post-translational expression of CYP3A4, the major metabolizing enzyme of amlodipine. Grapefruit, in all forms (e.g. whole fruit, juice and rind), can significantly increase serum levels of amlodipine and may cause toxicity. Avoid grapefruit products while on this medication. "	Grapefruit							
+DB00390	Avoid bran and high fiber foods within 2 hours of taking this medication.	Bran	Fiber-rich foods						
+DB01396	Avoid bran and high fiber foods within 2 hours of taking this medication.	Bran	Fiber-rich foods						
+DB00390	Avoid excess salt/sodium unless otherwise instructed by your physician.	Salt							
+DB00687	Avoid excess salt/sodium unless otherwise instructed by your physician.	Salt							
+DB00695	Avoid excess salt/sodium unless otherwise instructed by your physician.	Salt							
+DB00999	Avoid excess salt/sodium unless otherwise instructed by your physician.	Salt							
+DB01396	Avoid excess salt/sodium unless otherwise instructed by your physician.	Salt							
+DB00390	"Limit garlic, ginger, gingko, and horse chestnut."	Garlic	Ginger	Gingko	Horse chestnut				
+DB00682	"Limit garlic, ginger, gingko, and horse chestnut."	Garlic	Ginger	Gingko	Horse chestnut				
+DB01149	"Limit garlic, ginger, gingko, and horse chestnut."	Garlic	Ginger	Gingko	Horse chestnut				
+DB01396	"Limit garlic, ginger, gingko, and horse chestnut."	Garlic	Ginger	Gingko	Horse chestnut				
+DB00393	"Grapefruit down regulates post-translational expression of CYP3A4, the major metabolizing enzyme of nimodipine. Grapefruit, in all forms (e.g. whole fruit, juice and rind), can significantly increase serum levels of nimodipine and may cause toxicity. Avoid grapefruit products while on this medication."	Grapefruit							
+DB00400	 Avoid alcohol.	Alcohol							
+DB00401	"Do not take with grapefruit juice as this has been shown to interfere with nisoldipine metabolism, resulting in a mean increase in C<sub>max</sub> of about 3-fold (up to about 7-fold) and AUC of almost 2-fold (up to 5-fold)."	Grapefruit							
+DB00421	Spironolactone may decrease the excretion of potassium. Salt substitutes containing potassium increase the risk of hyperkalemia.	Salt (potassium)							
+DB00433	Take with a full glass of water Avoid excessive quantities of coffee or tea (Caffeine).	Caffeine							
+DB00440	"Do not take calcium, aluminium, magnesium or iron supplements within 2 hours of taking this medication."	Supplement (magnesium)	Supplement (calcium)	Supplement (iron)	Supplement (aluminum)				
+DB00688	"Do not take calcium, aluminium, magnesium or iron supplements within 2 hours of taking this medication."	Supplement (magnesium)	Supplement (calcium)	Supplement (iron)	Supplement (aluminum)				
+DB00943	"Do not take calcium, aluminium, magnesium or iron supplements within 2 hours of taking this medication."	Supplement (magnesium)	Supplement (calcium)	Supplement (iron)	Supplement (aluminum)				
+DB01015	"Do not take calcium, aluminium, magnesium or iron supplements within 2 hours of taking this medication."	Supplement (magnesium)	Supplement (calcium)	Supplement (iron)	Supplement (aluminum)				
+DB01581	"Do not take calcium, aluminium, magnesium or iron supplements within 2 hours of taking this medication."	Supplement (magnesium)	Supplement (calcium)	Supplement (iron)	Supplement (aluminum)				
+DB01582	"Do not take calcium, aluminium, magnesium or iron supplements within 2 hours of taking this medication."	Supplement (magnesium)	Supplement (calcium)	Supplement (iron)	Supplement (aluminum)				
+DB00442	Taking the product with a high-fat meal or a light snack reduces the maximal concentration by 44 to 46% and total exposure by 18 to 20%.	High-fat meal							
+DB00451	No iron or calium carbonate within 4 hours of taking this medication.	Supplement (iron)	Supplement (calcium carbonate)						
+DB00451	"Oral administration with infant soybean formula, soybean flour, cotton seed meal, walnuts, foods containing large amounts of fiber, ferrous sulfate, and antacids may decrease drug absorption. "	Infant soybean formula	Soybean flour	Cotton seed meal	Walnuts	Ferrous sulfate	Antacid	Fiber-rich foods	
+DB01583	"Oral administration with infant soybean formula, soybean flour, cotton seed meal, walnuts, foods containing large amounts of fiber, ferrous sulfate, and antacids may decrease drug absorption. "	Infant soybean formula	Soybean flour	Cotton seed meal	Walnuts	Ferrous sulfate	Antacid	Fiber-rich foods	
+DB00458	Do not take fibers at the same time.	Fiber-rich foods							
+DB00476	People taking this product who drink large amounts of alcohol are exposed to a higher risk of liver toxicity.	Alcohol							
+DB00490	Avoid taking grapefruit or grapefruit juice throughout treatment.	Grapefruit							
+DB00564	Avoid taking grapefruit or grapefruit juice throughout treatment.	Grapefruit							
+DB00491	"Take with food, at beginning of each meal. Iron needs increased."	Supplement (iron)							
+DB00492	"Do not take calcium, aluminum, magnesium or iron supplements, or antacids within 2 hours of taking this medication."	Supplement (calcium)	Supplement (aluminum)	Supplement (magnesium)	Supplement (iron)				
+DB00492	Fosinopril may decrease the excretion of potassium. Salt substitutes containing potassium may increase the risk of hyperkalemia. 	Salt (potassium)							
+DB00492	"Herbs that may attenuate the antihypertensive effect of fosinopril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice. "	Bayberry	Blue cohash	Cayenne	Ephedra	Ginger	Ginseng	Kola	Licorice
+DB00492	High salt intake may attenuate the antihypertensive effect of fosinopril. 	Salt							
+DB00502	"Take with food to reduce irritation, limit caffeine intake. Avoid alcohol."	Alcohol	Caffeine						
+DB00519	"Herbs that may attenuate the antihypertensive effect of trandolapril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice.  "	Bayberry	Blue cohash	Cayenne	Ephedra	Ginger	Ginseng	Kola	Licorice
+DB00519	High salt intake may attenuate the antihypertensive effect of trandolapril. 	Salt							
+DB00519	Trandolapril may decrease the excretion of potassium. Salt substitutes containing potassium may increase the risk of hyperkalemia. 	Salt (potassium)							
+DB00535	Avoid taking antacids at same time (up to 2 hours before or after antibiotic).	Antacid							
+DB00535	Avoid taking iron preparations at same time (up to 2 hours before or after antibiotic).	Supplement (iron)							
+DB00537	"Avoid milk, calcium containing dairy products, iron, magnesium, zinc, antacids, or aluminum salts 2 hours before or 6 hours after using antacids while on this medication."	Milk	Dairy (calcium)	Supplement (iron)	Supplement (magnesium)	Supplement (zinc)			
+DB04576	"Avoid milk, calcium containing dairy products, iron, magnesium, zinc, antacids, or aluminum salts 2 hours before or 6 hours after using antacids while on this medication."	Milk	Dairy (calcium)	Supplement (iron)	Supplement (magnesium)	Supplement (zinc)			
+DB00542	Benazepril may decrease the excretion of potassium. Salt substitutes containing potassium may increase the risk of hyperkalemia. 	Salt (potassium)							
+DB00542	"Herbs that may attenuate the antihypertensive effect of benazepril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice. "	Bayberry	Blue cohash	Cayenne	Ephedra	Ginger	Ginseng	Kola	Licorice
+DB00542	High salt intake may attenuate the antihypertensive effect of benazepril.	Salt							
+DB00544	Vitamin B1 needs increased with long term use.	Supplement (Vitamin B1)							
+DB00554	Take with food. Avoid alcohol.	Alcohol							
+DB00563	Milk appears to reduce its absorption.	Milk							
+DB00563	Take without regard to meals. Limit caffeine intake.	Caffeine							
+DB00934	Take without regard to meals. Limit caffeine intake.	Caffeine							
+DB00564	Grapefruit can significantly increase serum levels of this product.	Grapefruit							
+DB01118	Grapefruit can significantly increase serum levels of this product.	Grapefruit							
+DB00584	Enalapril decreases the excretion of potassium. Salt substitutes containing potassium increase the risk of hyperkalemia. 	Salt (potassium)							
+DB00584	"Herbs that may attenuate the antihypertensive effect of enalapril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice.  "	Bayberry	Blue cohash	Cayenne	Ephedra	Ginger	Ginseng	Kola	Licorice
+DB00584	High salt intake may attenuate the antihypertensive effect of enalapril.	Salt							
+DB00585	"No iron, zinc or fluoride within 2 hours of taking this medication."	Supplement (iron)	Supplement (zinc)	Supplement (flouride)					
+DB00968	"No iron, zinc or fluoride within 2 hours of taking this medication."	Supplement (iron)	Supplement (zinc)	Supplement (flouride)					
+DB00604	"Grapefruit and grapefruit juice should be avoided throughout treatment, grapefruit can significantly increase serum levels of this product."	Grapefruit							
+DB01166	"Grapefruit and grapefruit juice should be avoided throughout treatment, grapefruit can significantly increase serum levels of this product."	Grapefruit							
+DB00618	Avoid milk and multivalent ions.	Milk							
+DB00619	"Take with food to reduce the incidence of gastric irritation. Follow with a large glass of water. A lipid rich meal will slightly reduce and delay absorption. Avoid grapefruit and grapefruit juice throughout treatment, grapefruit can significantly increase serum levels of this product."	Grapefruit							
+DB00622	Grapefruit and grapefruit juice should be avoided throughout treatment. Grapefruit can increase serum levels of this product.	Grapefruit							
+DB01058	Grapefruit and grapefruit juice should be avoided throughout treatment. Grapefruit can increase serum levels of this product.	Grapefruit							
+DB01100	Grapefruit and grapefruit juice should be avoided throughout treatment. Grapefruit can increase serum levels of this product.	Grapefruit							
+DB01182	Grapefruit and grapefruit juice should be avoided throughout treatment. Grapefruit can increase serum levels of this product.	Grapefruit							
+DB00625	Avoid excessive or chronic alcohol consumption.	Alcohol							
+DB00640	Avoid caffeine containing foods and drinks.	Caffeine							
+DB00682	Avoid St. John's Wort.	St. John's Wort							
+DB00752	Avoid St. John's Wort.	St. John's Wort							
+DB00682	Consult your doctor before ingesting large amounts of dietary Vitamin K (e.g. from green leafy vegetables).	Supplement (Vitamin K)							
+DB00683	Grapefruit juice slows the product's absorption and significantly increases its bioavailability.	Grapefruit							
+DB00691	"Herbs that may attenuate the antihypertensive effect of moexipril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice. "	Bayberry	Blue cohash	Cayenne	Ephedra	Ginger	Ginseng	Kola	Licorice
+DB00691	High salt intake may attenuate the antihypertensive effect of moexipril.  	Salt							
+DB00691	Moexipril may decrease the excretion of potassium. Salt substitutes containing potassium may increase the risk of hyperkalemia. 	Salt (potassium)							
+DB00695	Increase potassium intake; add a banana or orange juice; unless instructed otherwise.	Supplement (potassium)							
+DB00999	Increase potassium intake; add a banana or orange juice; unless instructed otherwise.	Supplement (potassium)							
+DB00696	Caffeine increases absorption.	Caffeine							
+DB00698	Do not take magnesium at the same time.	Supplement (magnesium)							
+DB00701	"Avoid alcohol, especially with the oral solution since it contains propylene glycol which competes with alcohol for alcohol dehydrogenase metabolism."	Alcohol							
+DB01319	"Avoid alcohol, especially with the oral solution since it contains propylene glycol which competes with alcohol for alcohol dehydrogenase metabolism."	Alcohol							
+DB00701	"Take with or without food, however avoid lipid-rich meals."	High-fat meal							
+DB01319	"Take with or without food, however avoid lipid-rich meals."	High-fat meal							
+DB00701	Vitamin E increases amprenavir bioavailability.	Supplement (Vitamin E)							
+DB00722	"Herbs that may attenuate the antihypertensive effect of lisinopril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice. "	Bayberry	Blue cohash	Cayenne	Ephedra	Ginger	Ginseng	Kola	Licorice
+DB00722	High salt intake may attenuate the antihypertensive effect of lisinopril.	Salt							
+DB00722	Lisinopril decreases the excretion of potassium. Salt substitutes containing potassium increase the risk of hyperkalemia. 	Salt (potassium)							
+DB00741	"Take with food to reduce irritation. Calcium, phosphorous, potassium, Vitamin A, C, D and zinc needs increased with long term use."	Supplement (calcium)	Supplement (phosphorous)	Supplement (potassium)	Supplement (Vitamin A)	Supplement (Vitamin C)	Supplement (Vitamin D)	Supplement (zinc)	
+DB00752	"Avoid aged foods (chesse, red wine), pickled foods, cured foods (bacon/ham), chocolate, fava beans, beer, unless approved by your physician."	Cheese	Red wine	Pickled foods	Cured foods	Chocolate	Fava beans	Beer	
+DB00759	"Avoid milk, calcium containing dairy products, iron, antacids, or aluminium salts 2 hours before or 6 hours after using antacids while on this medication."	Milk	Dairy (calcium)	Supplement (iron)	Antacid	Salt (aluminum)			
+DB00773	Grapefruit and grapefruit juice should be avoided throughout treatment as grapefruit can decrease serum levels of this product.	Grapefruit							
+DB00780	"Avoid aged foods (cheese, red wine), pickled foods, cured foods (bacon/ham), chocolate, fava beans, beer, unless approved by your physician."	Cheese	Red wine	Pickled foods	Cured foods	Chocolate	Fava beans	Beer	
+DB00951	"Avoid aged foods (cheese, red wine), pickled foods, cured foods (bacon/ham), chocolate, fava beans, beer, unless approved by your physician."	Cheese	Red wine	Pickled foods	Cured foods	Chocolate	Fava beans	Beer	
+DB00790	"Herbs that may attenuate the antihypertensive effect of perindopril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice. "	Bayberry	Blue cohash	Cayenne	Ephedra	Ginger	Ginseng	Kola	Licorice
+DB00790	High salt intake may attenuate the antihypertensive effect of perindopril.	Salt							
+DB00790	Perindopril may decrease the excretion of potassium. Salt substitutes containing potassium may increase the risk of hyperkalemia. 	Salt (potassium)							
+DB00795	"Take with a full glass of water No iron, zinc or fluoride within 2 hours of taking this medication."	Supplement (iron)	Supplement (zinc)	Supplement (flouride)					
+DB00806	Take with food to reduce irritation. Limit caffeine intake.	Caffeine							
+DB00808	"Take without regard to meals. Magnesium, potassium and zinc needs increased."	Supplement (magnesium)	Supplement (potassium)	Supplement (zinc)					
+DB00822	Avoid alcohol for up to 14 days after treatment has been stopped.	Alcohol							
+DB00860	Avoid alcohol. Avoid caffeine.	Alcohol	Caffeine						
+DB00881	Do not take with a high-fat meal.	High-fat meal							
+DB00881	"Herbs that may attenuate the antihypertensive effect of quinapril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice. "	Bayberry	Blue cohash	Cayenne	Ephedra	Ginger	Ginseng	Kola	Licorice
+DB00881	High salt intake may attenuate the antihypertensive effect of quinapril.	Salt							
+DB00881	Quinapril may decrease the excretion of potassium. Salt substitutes containing potassium may increase the risk of hyperkalemia. 	Salt (potassium)							
+DB00926	Avoid alcohol completely up to 2 months after discontinuation.	Alcohol							
+DB00945	"Avoid alcohol, alcohol appears to cause a 50 to 100% increases in ASA serum levels."	Alcohol							
+DB00950	Grapefruit and grapefruit juice should be avoided throughout treatment as grapefruit can significantly decrease serum levels of this product.	Grapefruit							
+DB00958	Avoid echinacea as it may decrease effectiveness of immunosuppresants like carboplatin	Echinacea							
+DB00975	Coffee and tea can decrease the effect of dipyridamole.	Caffeine							
+DB00980	Do not take with or immediately after a high-fat meal.	High-fat meal							
+DB00982	Take with a full glass of water Do not take supplements containing Vitamin A.	Supplement (Vitamin A)							
+DB00990	High-fat meals increase plasma exemestane concentrations by approximately 40%.	High-fat meal							
+DB00991	"Take with food, usually once a day after breakfast. Food decreases the rate of absorption but not the amount absorbed. Avoid alcohol."	Alcohol							
+DB01012	Peak levels and area under curve (drug exposure) are increased (82% and 68% respectively) when product is taken with a lipid-rich meal.	High-fat meal							
+DB01017	Calcium and iron needs increased with long term use.	Supplement (calcium)	Supplement (iron)						
+DB01023	"Grapefruit down regulates post-translational expression of CYP3A4, the major metabolizing enzyme of nifedipine. Grapefruit, in all forms (e.g. whole fruit, juice and rind), can significantly increase serum levels of nifedipine and may cause toxicity. Avoid grapefruit products while on this medication. "	Grapefruit							
+DB01032	"Increase liquid intake, avoid alcohol."	Alcohol							
+DB01033	"Preferably on an empty stomach, drink plenty of liquids, avoid alcohol."	Alcohol							
+DB01044	"Absorption does not seem to be affected by milk or calcium carbonate, however, gatifloxacin bioavailability appears significantly reduced when combined with Ensure&trade; (C<sub>max</sub> is reduced by about 50% while total drug exposure (AUC) is reduced by about 25%)."	Ensure 							
+DB01048	Alcohol significantly increases abacavir's area under the curve (about 41%).	Alcohol							
+DB01066	"Antacids may reduce the serum concentration of cefditoren. Consider alternative methods to minimize/control acid reflux. If use of antacids cannot be avoided, separate administration by at least several hours to reduce chance of interaction"	Antacid							
+DB01067	Avoid sugar and sugary food.	Sugar							
+DB01076	Avoid taking grapefruit or grapefruit juice throughout treatment. Grapefruit can significantly increase serum levels of this product.	Grapefruit							
+DB01077	"Avoid aluminium, calcium, iron and magnesium within 2 hours of taking medication. "	Aluminium	Calcium	Iron	Magnesium				
+DB01109	"Adequate calcium intake is recommended, needs increased with long term use, supplement recommended."	Supplement (calcium)							
+DB01109	"Many herbs with anticoagulant properties (e.g. ginger, garlic, ginseng, green tea, evening primrose) may increase the risk of bleeding in patients on anticoagulant therapy such as heparin"	Ginger	Garlic	Ginseng	Green tea	Evening primrose oil			
+DB01115	"Grapefruit down-regulates post-translational expression of CYP3A4, the major metabolizing enzyme of nifedipine. Grapefruit, in all forms (e.g. whole fruit, juice and rind), can significantly increase serum levels of nifedipine and may cause toxicity. Avoid grapefruit products while on this medication. "	Grapefruit							
+DB01117	Fatty foods increase absorption.	High-fat meal							
+DB01133	Do not take aluminum or magnesium-containing antacids within 2 hours of taking tiludronate. 	Antacid							
+DB01137	"Take without regard to meals. Take with water, drink lliberally. Taking this product with orange juice can result in reduced quinolone plasma levels. "	Orange juice							
+DB01151	"Take with food to reduce irritation, limit caffeine intake."	Caffeine							
+DB01166	"Take on an empty stomach, a lipid rich meal will increase absorption."	High-fat meal							
+DB01171	Food slows absorption a little. Avoid alcohol. Take after meals in order to minimize the risk of interaction with tyramine.	Alcohol							
+DB01196	Do not take with milk or milk products.	Milk							
+DB01197	Captopril decreases the excretion of potassium. Salt substitutes containing potassium increase the risk of hyperkalemia. 	Salt (potassium)							
+DB01197	"Herbs that may attenuate the antihypertensive effect of captopril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice. "	Bayberry	Blue cohash	Cayenne	Ephedra	Ginger	Ginseng	Kola	Licorice
+DB01197	High salt intake may attenuate the antihypertensive effect of captopril. 	Salt							
+DB01218	"Take on an empty stomach, bioavailability is 6 times higher when drug is taken with high fat meals. Risks of cardiac toxicity are then increased."	High fat meal							
+DB01223	"Vitamin B6 needs increased, supplement recommended."	Supplement (Vitamin B6)							
+DB01225	"Avoid danshen, dong quai, evening primrose oil, gingko, policosanol, willow bark"	Danshen	Dong quai	Evening primrose oil	Gingko	Policosanol	Willow bark		
+DB01233	"Food reduces availability, take 30 minutes before meals. Avoid alcohol."	Alcohol							
+DB01238	Avoid alcohol (possible additive effect to CNS).	Alcohol							
+DB01242	"Grapefruit and grapefruit juice should be avoided throughout treatment, grapefruit can modify serum levels of clomipramine and its metabolite desmethyl-clomipramine."	Grapefruit							
+DB01247	"Take without regard to meals, avoid tyramine, caffeine and alcohol."	Caffeine	Alcohol	Tyramine					
+DB01319	Vitamin E increases fosamprenavir bioavailability.	Supplement (Vitamin E)							
+DB01330	Avoid alcohol as it can cause a disulfiram effect.	Alcohol							
+DB01344	"Avoid calcium, magnesium and potassium."	Supplement (calcium)	Supplement (magnesium)	Supplement (potassium)					
+DB01348	"Do not take calcium, aluminum, magnesium or iron supplements within 2 hours of taking this medication."	Supplement (calcium)	Supplement (aluminum)	Supplement (magnesium)	Supplement (iron)				
+DB01348	"Herbs that may attenuate the antihypertensive effect of spirapril include: bayberry, blue cohash, cayenne, ephedra, ginger, ginseng (American), kola and licorice. "	Bayberry	Blue cohash	Cayenne	Ephedra	Ginger	Ginseng	Kola	Licorice
+DB01348	High salt intake may attenuate the antihypertensive effect of spirapril.	Salt							
+DB01348	Spirapril may decrease the excretion of potassium. Salt substitutes containing potassium may increase the risk of hyperkalemia. 	Salt (potassium)							
+DB01356	Avoid iodine supplements.	Supplement (iodine)							
+DB01356	Do not change your salt intake from day to day without telling your doctor.	Salt							
+DB01367	Avoid alcohol and caffeine.	Alcohol	Caffeine						
+DB01394	Avoid alcohol since it increases uric acid levels.	Alcohol							
+DB01418	"High doses of vitamin A, C, E and K (e.g. avocado, green vegetables)"	Vitamin A	Vitamin C	Vitamin E	Vitamin K	Avocado	Green vegetables		
+DB01432	"Take with food, do not mix with soft drinks."	Soft drinks							
+DB01583	Iron and calcium may interfere with absorption. Space doses at least one hour before or after iron or calcium intake. 	Supplement (iron)	Supplement (calcium)						
+DB01609	"Dispersion in carbonated drinks or milk is not recommended due to foaming and slow dispersion, respectively."	Milk	Soft drinks						
+DB02546	Oral administration with a high-fat meal resulted in an increase (33%) in the extent of absorption and a modest decrease in the rate of absorption (T<sub>max</sub> delayed 2.5 hours) compared to the fasted state.	High-fat meal 							
+DB04571	"avoid eating limes, figs, parsley, parsnips, mustard, carrots, and celery while you are being treated with trioxsalen"	Lime	Fig	Parsley	Parsnip	Mustard	Carrot	Celery	
+DB04576	Avoid excessive coffee or tea (caffeine)	Caffeine							
+DB06228	"Foods with antiplatelet/anticoagulants properties such as horseradish, gingko, ginger, garlic, feverfew"	Horseradish	Gingko	Ginger	Garlic	Feverfew			
+DB06228	St. John's Wort	St. John's Wort							
+DB06695	St. John's Wort	St. John's Wort							
+DB06684	Caution taking vilazodone with foods/herbal product with antiplatelet/anticoagulant properties	Horseradish	Gingko	Ginger	Garlic	Feverfew			
+DB06684	"Gingko bilboa, ginger, garlic, green tea, licorice, horseradish"	Gingko	Ginger	Garlic	Green tea	Licorice	Horseradish		
+DB06693	avoid alcohol 	Alcohol							
+DB06693	Grape fruit juice increases blood levels of the drug	Grapefruit							
+DB06697	Grapefruit juice may increase the toxicity of artemether and lumefantrine by inhibiting their metabolism.	Grapefruit							
+DB06708	Grapefruit juice may increase the toxicity of artemether and lumefantrine by inhibiting their metabolism.	Grapefruit							
+DB06701	Avoid excessive quantities of coffee or tea (caffeine)	Caffeine							
+DB06779	"Herbs (anticoagulant/antiplatelet properties such as ginseng, ginkgo, ginger, garlic)"	Ginseng	Gingko	Ginger	Garlic				
+DB06822	"Herbs with anticoagulant/antiplatelet properties (ginger, gingko, garlic) may increase the risk of bleeding."	Ginger	Gingko	Garlic					
+DB08813	"Danshen, dong quai, evening primrose oil, gingko, policosanol, willowbark"	Danshen	Dong quai	Evening primrose oil	Gingko	Policosanol	Willow bark		
+DB08814	Gingko bilboa	Gingko							
+DB08814	"Herbs with anticoagulant/antiplatelet activity such as alfalfa, feverfew, ginger, ginseng, grape seed, green tea,  horseradish "	Alfalfa	Feverfew	Ginger	Gingseng	Grape seed	Green tea	Horseradish	
