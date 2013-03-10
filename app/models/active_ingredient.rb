@@ -23,4 +23,8 @@ class ActiveIngredient < Consumable
 	def drugs_com_url
 		return "http://www.drugs.com/search.php?searchterm=#{name}"
 	end
+
+	def web_md_url
+        return "http://www.webmd.com/search/search_results/default.aspx?query=#{name}"
+    end
 end

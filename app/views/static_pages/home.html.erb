@@ -1,5 +1,9 @@
 <% provide(:title, 'Drugs and Food Interaction Checker | Home') %>
 
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css">
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function(){
 		$("#addField").click( function() {
@@ -14,13 +18,35 @@
   <form accept-charset="UTF-8" action="/find" method="get">
     <div id="drugEntries">
       <label>Drug/food</label>
-      <input name="ids[]" />     
+      <input class="autocomplete" name="ids[]" />     
       <label>Drug/food</label>
-      <input name="ids[]" />    
+      <input class="autocomplete" name="ids[]" />    
     </div>
     <%= submit_tag("Search") %>
   </form>
 
 <button id="addField">Add new drug</button>
+
+<!-- autocomplete -->
+<style>
+.ui-autocomplete {
+  max-height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+</style>
+
+<script>
+var tags = <%= all_names.to_s.html_safe %>;
+$( ".autocomplete" ).autocomplete({
+  minLength: 3,
+  source: function( request, response ) {
+    var matcher = new RegExp( "^" + $.ui.autocomplete.escapeRegex( request.term ), "i" );
+    response( $.grep( tags, function( item ){
+      return matcher.test( item );
+    }) );
+  } 
+});
+</script>
   
 </div>
