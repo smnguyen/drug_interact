@@ -25,7 +25,7 @@
 </table>
 <br />
 <% if @interactions.empty? %>
-<h2>No interactions found</h2>
+<p>No interactions found</p>
 <% else %>
 <h2>Interaction Info</h2>
 <table class = "table" cellpadding="0">
