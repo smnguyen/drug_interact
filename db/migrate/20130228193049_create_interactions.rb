@@ -1,9 +1,9 @@
 class CreateInteractions < ActiveRecord::Migration
 	def up
 		create_table :interactions do |t|
-			t.column :consumable_id,	:integer
-			t.column :interactant_id, 	:integer
-			t.column :description,		:string
+			t.column :consumable_id,		:integer
+			t.column :interactant_id, 		:integer
+			t.column :description,			:string
 		end
 	end
 

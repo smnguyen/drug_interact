@@ -19,4 +19,10 @@ class Consumable < ActiveRecord::Base
 		interactants + inverse_interactants
 	end
 
+	def self.find_by_partial_name(partial_name)
+		return Consumable.find(
+			:all, 
+			:conditions => ["name LIKE ?", "#{partial_name}%"]
+		)
+	end
 end

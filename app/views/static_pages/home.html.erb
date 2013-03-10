@@ -1,52 +1,5 @@
 <% provide(:title, 'Drugs and Food Interaction Checker | Home') %>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
-</script>
-<script>
-$(document).ready(function(){
-	$("#btn1").click(function(){
-		$("p").append(" <b>Appended text</b>.");
-	});
-
-	$("#btn2").click(function(){
-		$("ol").append("<li>Appended item</li>");
-	});
-	
-	$("#btn3").click(function(){
-		$("myForm").append("<label>Appended item</label>");
-	});
-	
-	document.getElementById("clickMe").onclick = doFunction;
-	
-  	var optionNumber = 3; //The first option to be added is number 3 
-	function addOption() { 
-		var theForm = document.getElementById("myForm");
-		var newOption = document.createElement("input");
-		newOption.name = "ids[]"; 
-		
-		var newLabel = document.createElement("label");
-		newLabel.setAttribute("for","myForm");
-		newLabel.innerHTML = "Drug " +optionNumber;
-
-		theForm.appendChild(newLabel); 
-		theForm.appendChild(newOption); 
-		optionNumber++;
-	}; 
-	
-	var counter = 1;
-	function addInput(divName){
-		var newdiv = document.createElement('div');
-		newdiv.innerHTML = "Entry " + (counter + 1) + " <br><input type='text' name='myInputs[]'>";
-		document.getElementById(divName).appendChild(newdiv);
-		counter++;
-     }
-}
-	
-	document.getElementById("btn3").onclick = doFunction;
-  
-});
-</script>
-
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function(){
 		$("#addField").click( function() {

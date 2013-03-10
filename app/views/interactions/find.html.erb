@@ -1,5 +1,6 @@
 <% content_for :title, "Find Interactions" %>
 <h1>Search Results</h1>
+
 <h2>Drug/Food Info</h2>
 <table class = "table" cellpadding="0">
 	<tr>
@@ -10,20 +11,31 @@
 		<th>External links</th>
 	</tr>
 	<% @consumables.each do |consumable| %>
+	<% if consumable.type == "Food" %>
+	<tr>
+		<td>Food</td>
+		<td><%= consumable.name %></td>
+		<td/>
+		<td/>
+		<td/>
+	</tr>
+	<% else %>
 	<tr>
 		<td><%= consumable.drugbank_id %></td>
 		<td><%= consumable.name %></td>
 		<td><%= consumable.description %></td>
 		<td><%= consumable.indication_text %></td>
 		<td>
-			<li><a href="<%= "http://www.drugbank.ca/drugs/"+consumable.drugbank_id %>">Drugbank</a></li>
-			<li><a href="<%= "http://www.micromedexsolutions.com.laneproxy.stanford.edu/micromedex2/librarian/ND_T/evidencexpert/ND_PR/evidencexpert/CS/E7D7AE/ND_AppProduct/evidencexpert/DUPLICATIONSHIELDSYNC/F94375/ND_PG/evidencexpert/ND_B/evidencexpert/ND_P/evidencexpert/PFActionId/evidencexpert.DoIntegratedSearch?SearchTerm="+consumable.name %>">MicroMedex</a></li>
-			<li><a href="<%= "http://www.drugs.com/search.php?searchterm="+consumable.name %>">Drugs.com</a></li>
+			<li><%= link_to "Drugbank", consumable.drugbank_url %></li>
+			<li><%= link_to "MicroMedex", consumable.micromedex_url %></li>
+			<li><%= link_to "Drugs.com", consumable.drugs_com_url %></li>
 		</td>
 	</tr>
 	<% end %>
+	<% end %>
 </table>
 <br />
+
 <% if @interactions.empty? %>
 <h2>No interactions found</h2>
 <% else %>
