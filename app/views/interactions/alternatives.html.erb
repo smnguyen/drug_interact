@@ -13,6 +13,9 @@ Below are substitutes for <%= @drugToReplace.downcase %> with the indication
 </ul>
 </div>
 
+<% if @alternatives.empty? %>
+<h2>No substitutes found</h2>
+<% else %>
 <h2>Drug/Food Info</h2>
 <table class = "table" cellpadding="0">
 	<tr>
@@ -33,8 +36,8 @@ Below are substitutes for <%= @drugToReplace.downcase %> with the indication
 	<% else %>
 	<tr>
 		<td><%= consumable.name %></td>
-		<td><%= consumable.description %></td>
-		<td><%= consumable.indication_text %></td>
+		<td><%= consumable.description.html_safe %></td>
+		<td><%= consumable.indication_text.html_safe %></td>
 		<% if @isPhysician %>
 			<td>
 				<li><%= link_to "Drugbank", consumable.drugbank_url %></li>
@@ -50,3 +53,4 @@ Below are substitutes for <%= @drugToReplace.downcase %> with the indication
 	<% end %>
 	<% end %>
 </table>
+<% end %>

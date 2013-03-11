@@ -1,7 +1,15 @@
 class CreateSimilarityScores < ActiveRecord::Migration
 	def up
-		# get_matrix
+		get_matrix
 		
+		# might be buggy, comment out if needed
+		while true
+			puts "Run calculate_similarity_scores.py before continuing"
+			puts "Continue? (y or n)"
+			continue = gets
+			break if continue.downcase[0] == 'y'
+		end
+
 		create_table :similarity_scores do |t|
 			t.column :active_ingredient_id,		:integer
 			t.column :similar_ingredient_id,	:integer

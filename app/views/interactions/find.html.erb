@@ -23,8 +23,8 @@
 	<% else %>
 	<tr>
 		<td><%= consumable.name %></td>
-		<td><%= consumable.description %></td>
-		<td><%= consumable.indication_text %></td>
+		<td><%= consumable.description.html_safe %></td>
+		<td><%= consumable.indication_text.html_safe %></td>
 		<% if @isPhysician %>
 			<td>
 				<li><%= link_to "Drugbank", consumable.drugbank_url %></li>
@@ -104,6 +104,17 @@
     </select>
     <%= submit_tag("Search") %>
   </form>
+
+<h2>Automated Interaction Resolver</h2>
+	<form action="resolve" method="get">
+		<% @interactions.each do |interaction| %>
+		<input type="hidden" name="iid[]" value="<%= interaction.id %>"/>
+		<% end %>
+		<% @consumables.each do |consumable| %>
+		<input type="hidden" name="cid[]" value="<%= consumable.id %>"/>
+		<% end %>
+		<%= submit_tag("Run") %>
+	</form>
 <% end %>
 
 <script type="text/javascript">

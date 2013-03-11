@@ -38,6 +38,7 @@ class InteractionsController < ApplicationController
 			:interactant_id => Food.pluck(:id)
 		)
 		
+		# TODO: refactor with get_conflicts
 		@conflicts = []
 		@interactions.each do |interaction|
 			@conflicts << interaction.consumable.name
@@ -99,37 +100,37 @@ class InteractionsController < ApplicationController
 	end
 
 	def resolve
-		@consumables = []
-		@interactions = []
 		# TODO: redirect if no query string
-		if params[:ids].nil? then return end 
-	
-		interaction_ids = []
-		consumable_freq = {}
-		params[:ids].each do |id|
-			begin
-				interaction = Interaction.find(id)
-			rescue ActiveRecord::RecordNotFound
-				next
-			end
+		if params[:iid].nil? then return end 
+		if params[:cid].nil? then return end
+		
+		@consumables = Consumable.where(:id => params[:cid])
+		@interactions = Interaction.where(:id => params[:iid])
+		@conflicts = get_conflicts(@interactions)
+	end
 
-			@interactions << interaction
-			interaction_ids << interaction.id
-			
-			if consumable_freq[interaction.consumable].nil?
-				consumable_freq[interaction.consumable] = 1
+	private
+
+	# returns list of conflicts from list of interactions
+	# drugs are sorted by the number of interactions they appear in
+	def get_conflicts(interactions)
+		conflict_freq = {}
+		interactions.each do |int|			
+			if conflict_freq[int.consumable].nil?
+				conflict_freq[int.consumable] = 1
 			else 
-				consumable_freq[interaction.consumable] += 1
+				conflict_freq[int.consumable] += 1
 			end
 			
-			if consumable_freq[interaction.interactant].nil?
-				consumable_freq[interaction.interactant] = 1
+			if conflict_freq[int.interactant].nil?
+				conflict_freq[int.interactant] = 1
 			else
-				consumable_freq[interaction.interactant] += 1
+				conflict_freq[int.interactant] += 1
 			end
 		end
-		@consumables = consumable_freq.keys.sort {
-			|a, b| consumable_freq[b] <=> consumable_freq[a]
+		conflicts = conflict_freq.keys.sort {
+			|a, b| conflict_freq[b] <=> conflict_freq[a]
 		}
+		return conflicts
 	end
 end
