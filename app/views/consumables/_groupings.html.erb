@@ -1,0 +1,5 @@
+<% if !@groups.nil? && !@groups.empty? %>
+<% @groups.each do |group| %>
+<option value="<%= group %>"><%= group %></option>
+<% end %>
+<% end %>

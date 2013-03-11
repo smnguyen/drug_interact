@@ -67,7 +67,7 @@ class CreateIndications < ActiveRecord::Migration
 			result = OBAClient::parse(result_xml)
 			terms = get_terms(result)
 			terms.each do |term|
-				indication = Indication.find_by_name(indication)
+				indication = Indication.find_by_name(term)
 				if indication.nil?
 					indication = Indication.new(:name => term)
 				end

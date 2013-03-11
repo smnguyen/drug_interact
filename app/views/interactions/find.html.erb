@@ -15,7 +15,6 @@
 	<% @consumables.each do |consumable| %>
 	<% if consumable.type == "Food" %>
 	<tr>
-		<td>Food</td>
 		<td><%= consumable.name %></td>
 		<td/>
 		<td/>
@@ -44,10 +43,10 @@
 <br />
 
 <% if @interactions.empty? %>
-<h2>No interactions found</h2>
+<h2>No drug interactions found</h2>
 <% else %>
-<h2>Interaction Info</h2>
-<table class = "table" cellpadding="0">
+<h2>Drug-Drug Interactions</h2>
+<table class="table" cellpadding="0">
 	<tr>
 		<th>Consumable A</th>
 		<th>Consumable B</th>
@@ -61,23 +60,55 @@
 			<td><%= interaction.description %></td>
 		<% else %>
 			<!-- <td>interaction.simple_description</td> -->
-			
-
 			<td><%= interaction.description %></td>
 		<% end %>
 	</tr>
 	<% end %>
 </table>
+<% end %>
 
+<% if @food_interactions.empty? %>
+<h2>No food interactions found</h2>
+<% else %>
+<h2>Food-Drug Interactions</h2>
+<table class="table" cellpadding="0">
+	<tr>
+		<th>Drug</th>
+		<th>Food Item</th>
+		<th>Interaction</th>
+	</tr>
+	<% @food_interactions.each do |interaction| %>
+	<tr>
+		<td><%= interaction.consumable.name %></td>
+		<td><%= interaction.interactant.name %></td>
+		<td><%= interaction.description %></td>
+	</tr>
+	<% end %>
+</table>
+<% end %>
+
+<% if !@interactions.empty? %>
 <h2>Alternative Drug Search</h2>
   <form accept-charset="UTF-8" action="/alternatives" method="get">
+  	<% @consumables.each do |consumable| %>
+  	<input type="hidden" name="ids[]" value="<%= consumable.name %>"/>
+  	<% end %>
     <label>Drug/food to replace</label>
-    <input name="ids[]"  />
+    <select name="drugToReplace" id="replace">
+    	<option value="" />
+    	<% @conflicts.each do |conflict| %>
+    	<option value="<%= conflict %>"><%= conflict %></option>
+    	<% end %>
+    </select>
     <label>Indication to search for</label>
-    <input name="ids[]" />
-    <label></label>
+    <select name="indication" id="indication">
+    </select>
     <%= submit_tag("Search") %>
   </form>
 <% end %>
 
-
+<script type="text/javascript">
+//<![CDATA[
+	new CategorySearch("replace", "indication", "/consumables/groupings?term=");
+//]]>
+</script>

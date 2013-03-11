@@ -25,6 +25,6 @@ class ActiveIngredient < Consumable
 	end
 
 	def web_md_url
-        return "http://www.webmd.com/search/search_results/default.aspx?query=#{name}"
-    end
+		return "http://www.webmd.com/search/search_results/default.aspx?query=#{name}"
+	end
 end

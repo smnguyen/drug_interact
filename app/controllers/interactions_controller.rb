@@ -29,25 +29,28 @@ class InteractionsController < ApplicationController
 			consumable_ids << consumable.id
 		end
 
-		# food_interactions = Interaction.all(
-		# 	:joins => :interactants,
-		# 	:conditions => [
-		# 		:consumable_id => consumable_ids,
-		# 		:interactants => [:type => "Food"]
-		# 	]
-		# )
 		@interactions = Interaction.where(
 			:consumable_id => consumable_ids,
 			:interactant_id => consumable_ids
 		)
-		# @interactions += food_interactions
-
+		@food_interactions = Interaction.where(
+			:consumable_id => consumable_ids,
+			:interactant_id => Food.pluck(:id)
+		)
+		
+		@conflicts = []
+		@interactions.each do |interaction|
+			@conflicts << interaction.consumable.name
+			@conflicts << interaction.interactant.name
+		end
+		@conflicts.uniq!
+		@conflicts.sort!
 	end
 
 	def alternatives
 		drugToReplace = params[:drugToReplace]
 		indicationName = params[:indication]
-		@isPhysician = (params[:isPhysician]=='1')
+		@isPhysician = (params[:isPhysician] == '1')
 		
 		indication = Indication.find_by_name(indicationName)
 		allAlternatives = indication.active_ingredients
@@ -88,10 +91,7 @@ class InteractionsController < ApplicationController
 			badDrugs << int.interactant
 		end	
 		
-		@alternatives=allAlternatives-badDrugs
-		
-		
-		
+		@alternatives = allAlternatives - badDrugs
 	end
 
 	def resolve
@@ -127,7 +127,5 @@ class InteractionsController < ApplicationController
 		@consumables = consumable_freq.keys.sort {
 			|a, b| consumable_freq[b] <=> consumable_freq[a]
 		}
-
-
 	end
 end
