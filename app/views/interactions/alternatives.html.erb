@@ -4,7 +4,7 @@
 
 <!-- TODO: add styling info for this div -->
 <div id="intro">
-Below are substitutes for <%= lc(@drugToReplace) %> that do not interact with
+Below are substitutes for <%= downcase(@drugToReplace) %> that do not interact with
 any of the following drugs:
 <ul>
 	<% @consumables.each do |consumable| %>
