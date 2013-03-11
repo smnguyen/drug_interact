@@ -2,7 +2,7 @@ class LoadFood < ActiveRecord::Migration
 	def up
 		f = File.open('food_interactions.txt')
 		while line = f.gets
-			line = line.chomp
+			line.chomp!
 			db_id, description, *foods = line.split(/\t/)
 			active_ingredient = ActiveIngredient.find_by_drugbank_id(db_id)
 			foods.each do |food_name|

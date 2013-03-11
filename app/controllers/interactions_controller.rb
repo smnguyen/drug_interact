@@ -53,12 +53,12 @@ class InteractionsController < ApplicationController
 		@isPhysician = (params[:isPhysician] == '1')
 		
 		indication = Indication.find_by_name(indicationName)
-		allAlternatives = indication.active_ingredients
+		allAlternativesIDs = indication.active_ingredients.pluck(:id)
 		
-		allAlternativeIDs = []
-		allAlternatives.each do |alt|
-			allAlternativeIDs << alt.id
-		end
+		# allAlternativeIDs = []
+		# allAlternatives.each do |alt|
+		# 	allAlternativeIDs << alt.id
+		# end
 		
 		consumable_ids = []
 		params[:ids].each do |id_str|
@@ -70,10 +70,7 @@ class InteractionsController < ApplicationController
 			if consumable.nil?
 				brand = Brand.find_by_name(id_str)
 				next if brand.nil?
-
-				brand.active_ingredients.each do |active_ingredient|
-					consumable_ids << active_ingredient.id
-				end
+				consumable_ids += brand.active_ingredients.pluck(:id)
 				next
 			end
 
@@ -86,11 +83,9 @@ class InteractionsController < ApplicationController
 		)
 		
 		badDrugs = []
-		
 		interactions.each do |int|
 			badDrugs << int.interactant
 		end	
-		
 		@alternatives = allAlternatives - badDrugs
 	end
 
