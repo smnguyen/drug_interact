@@ -49,11 +49,11 @@ class InteractionsController < ApplicationController
 
 	def alternatives
 		@drugToReplace = params[:drugToReplace]
-		indicationName = params[:indication]
+		@indicationName = params[:indication]
 		@isPhysician = (params[:isPhysician] == '1')
 		params[:ids].delete(@drugToReplace)
 
-		indication = Indication.find_by_name(indicationName)
+		indication = Indication.find_by_name(@indicationName)
 		allAlternatives = indication.active_ingredients
 		allAlternativeIDs = allAlternatives.pluck(:id)
 		
