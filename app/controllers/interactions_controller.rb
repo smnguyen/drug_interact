@@ -48,15 +48,17 @@ class InteractionsController < ApplicationController
 	end
 
 	def alternatives
-		drugToReplace = params[:drugToReplace]
+		@drugToReplace = params[:drugToReplace]
 		indicationName = params[:indication]
 		@isPhysician = (params[:isPhysician] == '1')
-		
+		params[:ids].delete(@drugToReplace)
+
 		indication = Indication.find_by_name(indicationName)
 		allAlternatives = indication.active_ingredients
 		allAlternativeIDs = allAlternatives.pluck(:id)
 		
 		consumable_ids = []
+		@consumables = []
 		params[:ids].each do |id_str|
 			consumable = Consumable.find_by_name(id_str)
 			if consumable.nil?
@@ -67,22 +69,33 @@ class InteractionsController < ApplicationController
 				brand = Brand.find_by_name(id_str)
 				next if brand.nil?
 				consumable_ids += brand.active_ingredients.pluck(:id)
+				@consumables += brand.active_ingredients.pluck(:name)
 				next
 			end
 
 			consumable_ids << consumable.id
+			@consumables << consumable.name
 		end
 		
 		interactions = Interaction.where(
 			:consumable_id => consumable_ids,
 			:interactant_id => allAlternativeIDs
 		)
-		
+		inverse_interactions = Interaction.where(
+			:consumable_id => allAlternativeIDs,
+			:interactant_id => consumable_ids
+		)
+
 		badDrugs = []
 		interactions.each do |int|
 			badDrugs << int.interactant
-		end	
+		end
+		inverse_interactions.each do |int|
+			badDrugs << int.consumable
+		end
+
 		@alternatives = allAlternatives - badDrugs
+		@consumables.uniq!
 	end
 
 	def resolve

@@ -1,6 +1,18 @@
 <% content_for :title, "Drug Alternatives" %>
 
 <h1>Drug Alternatives</h1>
+
+<!-- TODO: add styling info for this div -->
+<div id="intro">
+Below are substitutes for <%= lc(@drugToReplace) %> that do not interact with
+any of the following drugs:
+<ul>
+	<% @consumables.each do |consumable| %>
+	<li><%= consumable %></li>
+	<% end %>
+</ul>
+</div>
+
 <h2>Drug/Food Info</h2>
 <table class = "table" cellpadding="0">
 	<tr>
