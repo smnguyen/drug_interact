@@ -9,13 +9,13 @@ class InteractionsController < ApplicationController
 		
 		consumable_ids = []
 		params[:ids].each do |id_str|
-			consumable = Consumable.find_by_name(id_str)
+			consumable = Consumable.where("name LIKE ?", id_str).first
 			if consumable.nil?
-				synonym = Synonym.find_by_synonym(id_str)
+				synonym = Synonym.where("synonym LIKE ?", id_str).first
 				consumable = synonym.consumable if !synonym.nil?
 			end
 			if consumable.nil?
-				brand = Brand.find_by_name(id_str)
+				brand = Brand.where("name LIKE ?", id_str).first
 				next if brand.nil?
 
 				brand.active_ingredients.each do |active_ingredient|
