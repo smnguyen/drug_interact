@@ -5,19 +5,23 @@
 	<h1>Patient Search Results</h1>
 <% end %>
 <h2>Drug/Food Info</h2>
-<table class = "table" cellpadding="0">
+<table class="table" cellpadding="0">
 	<tr>
 		<th>Name</th>
+		<th>Search Term</th>
 		<% if @isPhysician %>
 		<th>Description</th>
 		<% end %>
 		<th>Indication</th>
 		<th>External links</th>
 	</tr>
-	<% @consumables.each do |consumable| %>
+	<% @consumables.each do |tuple| %>
+		<% consumable = tuple[0] %>
+		<% search_term = tuple[1] %>
 	<% if consumable.type == "Food" %>
 	<tr>
 		<td><%= consumable.name %></td>
+		<td><%= search_term %></td>
 		<% if @isPhysician %>
 		<td/>
 		<% end %>
@@ -27,6 +31,7 @@
 	<% else %>
 	<tr>
 		<td><%= consumable.name %></td>
+		<td><%= search_term %></td>
 		<% if @isPhysician %>
 		<td><%= consumable.description.html_safe %></td>
 		<% end %>
@@ -100,8 +105,8 @@
 	<% else %>
 		<input type="hidden" name="isPhysician" value="0">
 	<% end %>
-  	<% @consumables.each do |consumable| %>
-  	<input type="hidden" name="ids[]" value="<%= consumable.name %>"/>
+  	<% @consumables.each do |tuple| %>
+  	<input type="hidden" name="ids[]" value="<%= tuple[0].name %>"/>
   	<% end %>
     <label>Drug/food to replace</label>
     <select name="drugToReplace" id="replace">
@@ -123,8 +128,8 @@
 		<% @interactions.each do |interaction| %>
 		<input type="hidden" name="iid[]" value="<%= interaction.id %>"/>
 		<% end %>
-		<% @consumables.each do |consumable| %>
-		<input type="hidden" name="cid[]" value="<%= consumable.id %>"/>
+		<% @consumables.each do |tuple| %>
+		<input type="hidden" name="cid[]" value="<%= tuple[0].id %>"/>
 		<% end %>
 		<%= submit_tag("Run") %>
 	</form>

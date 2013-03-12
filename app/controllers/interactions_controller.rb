@@ -19,13 +19,13 @@ class InteractionsController < ApplicationController
 				next if brand.nil?
 
 				brand.active_ingredients.each do |active_ingredient|
-					@consumables << active_ingredient
+					@consumables << [active_ingredient, id_str]
 					consumable_ids << active_ingredient.id
 				end
 				next
 			end
 
-			@consumables << consumable
+			@consumables << [consumable, id_str]
 			consumable_ids << consumable.id
 		end
 
@@ -36,7 +36,7 @@ class InteractionsController < ApplicationController
 		@food_interactions = Interaction.where(
 			:consumable_id => consumable_ids,
 			:interactant_id => Food.pluck(:id)
-		)
+		).order(:consumable_id)
 		
 		# TODO: refactor with get_conflicts
 		@conflicts = []
@@ -114,11 +114,18 @@ class InteractionsController < ApplicationController
 		
 		@consumables = Consumable.where(:id => params[:cid])
 		@interactions = Interaction.where(:id => params[:iid])
-		@conflicts = get_conflicts(@interactions)
-		@nonconflicts = @consumables - @conflicts
-		@solution = fix(@nonconflicts, @conflicts, 10)
-		if !@solution.nil?
-			@solution += @nonconflicts
+		conflicts = get_conflicts(@interactions)
+		nonconflicts = @consumables - conflicts
+		solution = fix(nonconflicts, conflicts, 10)
+		
+		if !solution.nil?
+			@solution = {}
+			for i in 0..(solution.length-1)
+				@solution[solution[i]] = conflicts[i]
+			end
+			nonconflicts.each do |nonconflict|
+				@solution[nonconflict] = nil
+			end
 		end
 	end
 

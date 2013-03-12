@@ -15,11 +15,12 @@ No solution found.
 <table class="table" cellpadding="0">
 	<tr>
 		<th>Name</th>
+		<th>Replaces</th>
 		<th>Description</th>
 		<th>Indication</th>
 		<th>External links</th>
 	</tr>
-	<% @solution.each do |consumable| %>
+	<% @solution.each do |consumable, conflict| %>
 	<% if consumable.type == "Food" %>
 	<tr>
 		<td><%= consumable.name %></td>
@@ -30,6 +31,7 @@ No solution found.
 	<% else %>
 	<tr>
 		<td><%= consumable.name %></td>
+		<td><%= conflict.nil? ? "N/A" : conflict.name %></td>
 		<td><%= consumable.description.html_safe %></td>
 		<td><%= consumable.indication_text.html_safe %></td>
 		<td>
