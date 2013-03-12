@@ -112,13 +112,89 @@ class InteractionsController < ApplicationController
 		if params[:iid].nil? then return end 
 		if params[:cid].nil? then return end
 		
-		consumables = Consumable.where(:id => params[:cid])
+		@consumables = Consumable.where(:id => params[:cid])
 		@interactions = Interaction.where(:id => params[:iid])
 		@conflicts = get_conflicts(@interactions)
-		@nonconflicts = consumables - @conflicts
+		@nonconflicts = @consumables - @conflicts
+		
+		indices = Array.new(@conflicts.length, -1)
+		max_indices = []
+		@conflicts.each do |conflict|
+			max_indices << (conflict.similar_ingredients.length - 1)
+		end
+
+		@solution = fix(@nonconflicts, @conflicts, indices, max_indices, 10)
+		if !@solution.nil?
+			@solution += @nonconflicts
+		end
 	end
 
 	private
+
+	def fix(nonconflicts, conflicts, indices, max_indices, max_depth)
+		solution_queue = []
+		solution_queue << indices
+		while !solution_queue.empty?
+			processed_indices = solution_queue.shift
+			candidate = valid_solution(nonconflicts, conflicts, processed_indices)
+			if !candidate.nil?
+				return candidate
+			end
+
+			i = 0
+			while i < processed_indices.length
+				if processed_indices[i] != -1
+					i = i + 1
+					next
+				end
+
+				max_index = [max_depth, max_indices[i]].min
+				for new_index in 0..max_index
+					new_indices = Array.new(processed_indices)
+					new_indices[i] = new_index
+					solution_queue << new_indices
+				end
+				i = i + 1
+			end
+		end
+		return nil
+	end
+
+	def valid_solution(nonconflicts, conflicts, indices)
+		solution = build_solution(conflicts, indices)
+		solution_ids = []
+		solution.each do |drug|
+			solution_ids << drug.id
+		end
+		nonconflicts.each do |drug|
+			solution_ids << drug.id
+		end
+
+		interactions = Interaction.where(
+			:consumable_id => solution_ids,
+			:interactant_id => solution_ids
+		)
+		if interactions.empty?
+			return solution
+		else
+			return nil
+		end
+	end
+
+	def build_solution(conflicts, indices)
+		solution = []
+		i = 0
+		while i < conflicts.length
+			if indices[i] == -1
+				solution << conflicts[i]
+			else
+				similar = conflicts[i].similar_ingredients
+				solution << similar[indices[i]]
+			end
+			i = i + 1
+		end
+		return solution
+	end
 
 	# returns list of conflicts from list of interactions
 	# drugs are sorted by the number of interactions they appear in
