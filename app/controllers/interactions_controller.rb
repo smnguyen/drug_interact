@@ -50,12 +50,20 @@ class InteractionsController < ApplicationController
 
 	def alternatives
 		@drugToReplace = params[:drugToReplace]
-		@indicationName = params[:indication]
+		@groupName = params[:indication]
 		@isPhysician = (params[:isPhysician] == '1')
 		params[:ids].delete(@drugToReplace)
 
-		indication = Indication.find_by_name(@indicationName)
-		allAlternatives = indication.active_ingredients
+		group = Indication.find_by_name(@groupName)
+		if group.nil?
+			group = Category.find_by_name(@groupName)
+		end
+		
+		if group.class.to_s == "Category"
+			allAlternatives = group.consumables
+		else
+			allAlternatives = group.active_ingredients
+		end
 		allAlternativeIDs = allAlternatives.pluck(:id)
 		
 		consumable_ids = []
@@ -104,9 +112,10 @@ class InteractionsController < ApplicationController
 		if params[:iid].nil? then return end 
 		if params[:cid].nil? then return end
 		
-		@consumables = Consumable.where(:id => params[:cid])
+		consumables = Consumable.where(:id => params[:cid])
 		@interactions = Interaction.where(:id => params[:iid])
 		@conflicts = get_conflicts(@interactions)
+		@nonconflicts = consumables - @conflicts
 	end
 
 	private

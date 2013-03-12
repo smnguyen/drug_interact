@@ -13,7 +13,7 @@ class ConsumablesController < ApplicationController
 	def groupings
 		consumable = Consumable.find_by_name(params[:term])
 		@groups = []
-		# @groups += consumable.categories.pluck(:name)
+		@groups += consumable.categories.pluck(:name)
 		if consumable.type == "ActiveIngredient"
 			@groups += consumable.indications.pluck(:name)
 		end
