@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 $(document).ready(function(){
   $("#addField").click( function() {
-    $("#drugEntries").append('<label>Drug/food</label>');
+    $("#drugEntries").append('<p>Drug/food</p>');
     $("#drugEntries").append('<input class="autocomplete" name="ids[]" />');
     $(".autocomplete").autocomplete({
       minLength: 3,
@@ -38,10 +38,14 @@ $(document).ready(function(){
   
   <form accept-charset="UTF-8" action="interactions/find" method="get">
     <div id="drugEntries">
-      <label>Drug/food</label>
+      <p>Drug/food</p>
       <input class="autocomplete" name="ids[]" />     
-      <label>Drug/food</label>
+      <p>Drug/food</p>
       <input class="autocomplete" name="ids[]" />    
+    </div> 
+      <p>I am a physician <input type="checkbox" name="isPhysician" value="1"></p>
+    <div>
+    
     </div>
     <%= submit_tag("Search") %>
   </form>
