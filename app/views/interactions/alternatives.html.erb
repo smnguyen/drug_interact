@@ -20,33 +20,38 @@ Below are substitutes for <%= @drugToReplace.downcase %> with the indication
 <table class = "table" cellpadding="0">
 	<tr>
 		<th>Name</th>
+		<% if @isPhysician %>
 		<th>Description</th>
+		<% end %>
 		<th>Indication</th>
 		<th>External links</th>
 	</tr>
-	<% @alternatives.each do |consumable| %>
-	<% if consumable.type == "Food" %>
+	<% @alternatives.each do |alt| %>
+	<% if alt.type == "Food" %>
 	<tr>
-		<td>Food</td>
-		<td><%= consumable.name %></td>
+		<td><%= alt.name %></td>
+		<% if @isPhysician %>
 		<td/>
+		<% end %>
 		<td/>
 		<td/>
 	</tr>
 	<% else %>
 	<tr>
-		<td><%= consumable.name %></td>
-		<td><%= consumable.description.html_safe %></td>
-		<td><%= consumable.indication_text.html_safe %></td>
+		<td><%= alt.name %></td>
+		<% if @isPhysician %>
+		<td><%= alt.description.html_safe %></td>
+		<% end %>
+		<td><%= alt.indication_text.html_safe %></td>
 		<% if @isPhysician %>
 			<td>
-				<li><%= link_to "Drugbank", consumable.drugbank_url %></li>
-				<li><%= link_to "MicroMedex", consumable.micromedex_url %></li>
+				<li><%= link_to "Drugbank", alt.drugbank_url %></li>
+				<li><%= link_to "MicroMedex", alt.micromedex_url %></li>
 			</td>
 		<% else %>
 			<td>
-				<li><%= link_to "WebMD", consumable.web_md_url %></li>
-				<li><%= link_to "Drugs.com", consumable.drugs_com_url %></li>
+				<li><%= link_to "WebMD", alt.web_md_url %></li>
+				<li><%= link_to "Drugs.com", alt.drugs_com_url %></li>
 			</td>
 		<% end %>
 	</tr>

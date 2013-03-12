@@ -8,7 +8,9 @@
 <table class = "table" cellpadding="0">
 	<tr>
 		<th>Name</th>
+		<% if @isPhysician %>
 		<th>Description</th>
+		<% end %>
 		<th>Indication</th>
 		<th>External links</th>
 	</tr>
@@ -16,14 +18,18 @@
 	<% if consumable.type == "Food" %>
 	<tr>
 		<td><%= consumable.name %></td>
+		<% if @isPhysician %>
 		<td/>
+		<% end %>
 		<td/>
 		<td/>
 	</tr>
 	<% else %>
 	<tr>
 		<td><%= consumable.name %></td>
+		<% if @isPhysician %>
 		<td><%= consumable.description.html_safe %></td>
+		<% end %>
 		<td><%= consumable.indication_text.html_safe %></td>
 		<% if @isPhysician %>
 			<td>
@@ -89,6 +95,11 @@
 <% if !@interactions.empty? %>
 <h2>Alternative Drug Search</h2>
   <form accept-charset="UTF-8" action="/alternatives" method="get">
+    <% if @isPhysician %>
+		<input type="hidden" name="isPhysician" value="1">
+	<% else %>
+		<input type="hidden" name="isPhysician" value="0">
+	<% end %>
   	<% @consumables.each do |consumable| %>
   	<input type="hidden" name="ids[]" value="<%= consumable.name %>"/>
   	<% end %>
@@ -102,6 +113,8 @@
     <label>Indication to search for</label>
     <select name="indication" id="indication">
     </select>
+
+    
     <%= submit_tag("Search") %>
   </form>
 
