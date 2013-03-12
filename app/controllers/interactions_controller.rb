@@ -116,14 +116,7 @@ class InteractionsController < ApplicationController
 		@interactions = Interaction.where(:id => params[:iid])
 		@conflicts = get_conflicts(@interactions)
 		@nonconflicts = @consumables - @conflicts
-		
-		indices = Array.new(@conflicts.length, -1)
-		max_indices = []
-		@conflicts.each do |conflict|
-			max_indices << (conflict.similar_ingredients.length - 1)
-		end
-
-		@solution = fix(@nonconflicts, @conflicts, indices, max_indices, 10)
+		@solution = fix(@nonconflicts, @conflicts, 10)
 		if !@solution.nil?
 			@solution += @nonconflicts
 		end
@@ -131,9 +124,20 @@ class InteractionsController < ApplicationController
 
 	private
 
-	def fix(nonconflicts, conflicts, indices, max_indices, max_depth)
+	# finds a solution to the drug conflicts such that 
+	#    a. a drug is replaced with a drug as similar to it as possible
+	#    b. as few drugs are replaced as possible
+	#
+	# uses a queue to check through all possible combinations of substitutes,
+	# using the top 'max_depth' substitutes for each conflicting drug
+	def fix(nonconflicts, conflicts, max_depth)
+		max_indices = []
+		conflicts.each do |conflict|
+			max_indices << (conflict.similar_ingredients.length - 1)
+		end
+
 		solution_queue = []
-		solution_queue << indices
+		solution_queue << Array.new(conflicts.length, -1)
 		while !solution_queue.empty?
 			processed_indices = solution_queue.shift
 			candidate = valid_solution(nonconflicts, conflicts, processed_indices)
@@ -161,14 +165,7 @@ class InteractionsController < ApplicationController
 	end
 
 	def valid_solution(nonconflicts, conflicts, indices)
-		solution = build_solution(conflicts, indices)
-		solution_ids = []
-		solution.each do |drug|
-			solution_ids << drug.id
-		end
-		nonconflicts.each do |drug|
-			solution_ids << drug.id
-		end
+		solution, solution_ids = build_solution(conflicts, indices)
 
 		interactions = Interaction.where(
 			:consumable_id => solution_ids,
@@ -183,17 +180,20 @@ class InteractionsController < ApplicationController
 
 	def build_solution(conflicts, indices)
 		solution = []
+		solution_ids = []
 		i = 0
 		while i < conflicts.length
 			if indices[i] == -1
 				solution << conflicts[i]
+				solution_ids << conflicts[i].id
 			else
 				similar = conflicts[i].similar_ingredients
 				solution << similar[indices[i]]
+				solution_ids << similar[indices[i]].id
 			end
 			i = i + 1
 		end
-		return solution
+		return [solution, solution_ids]
 	end
 
 	# returns list of conflicts from list of interactions
